@@ -1,0 +1,174 @@
+{
+    "sdt" : "https://semanticdt.linkeddata.es/def/sdt#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "saref" : "https://w3id.org/saref#",
+    "hctl" : "https://www.w3.org/2019/wot/hypermedia#",
+
+    
+    "pe" : {
+        "@id" : "sdt:pe",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "PhysicalEntity" : {
+        "@id" : "sdt:PhysicalEntity",
+        "@type" : "@id"
+    },
+    "Component" : {
+        "@id" : "sdt:Component",
+        "@type" : "@id"
+    },
+    "components" : {
+        "@id" : "sdt:components",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "name" : {
+        "@id" : "dcterms:title",
+        "@type" : "xsd:string"
+    },
+    "description" : {
+        "@id" : "dcterms:description",
+        "@type" : "xsd:string"
+    },
+    "comment" : {
+        "@id" : "rdfs:comment",
+        "@type" : "xsd:string"
+    },
+    "Sensor" : {
+        "@id" : "saref:Sensor",
+        "@type" : "@id"
+    },
+    "Actuator" : {
+        "@id" : "saref:Actuator",
+        "@type" : "@id"
+    },
+
+
+    "ve" : {
+        "@id" : "sdt:ve",
+        "@type" : "@id"
+    },
+    "VirtualEntity" : {
+        "@id" : "sdt:VirtualEntity",
+        "@type" : "@id"
+    },
+    "Model" : {
+        "@id" : "sdt:Model",
+        "@type" : "@id"
+    },
+    "Ontology_Model" : {
+        "@id" : "sdt:Ontology_Model",
+        "@type" : "@id"
+    },
+    "SHACL_Shape_Model" : {
+        "@id" : "sdt:SHACL_Shape_Model",
+        "@type" : "@id"
+    },
+    "Mapping_Model" : {
+        "@id" : "sdt:Mapping_Model",
+        "@type" : "@id"
+    },
+    "Format" : {
+        "@id" : "sdt:Format",
+        "@type" : "@id"
+    },
+    "href" : {
+        "@id" : "hctl:hasTarget",
+        "@type" : "xsd:anyURI"
+    },
+    "models" : {
+        "@id" : "sdt:models",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "extends" : {
+        "@id" : "sdt:extends",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "formats" : {
+        "@id" : "sdt:formats",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "format" : {
+        "@id" : "dcterms:format",
+        "@type" : "@id"
+    },
+
+
+    "dd" : {
+        "@id" : "sdt:dd",
+        "@type" : "@id"
+    },
+    "Digital_Twin_Data" : {
+        "@id" : "sdt:Digital_Twin_Data",
+        "@type" : "@id"
+    },
+    "Triplestore" : {
+        "@id" : "sdt:Triplestore",
+        "@type" : "@id"
+    },
+    "FileStorage" : {
+        "@id" : "sdt:FileStorage",
+        "@type" : "@id"
+    },
+    "File" : {
+        "@id" : "sdt:File",
+        "@type" : "@id"
+    },
+    "storages" : {
+        "@id" : "sdt:storages",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "endpoint" : {
+        "@id" : "hctl:hasTarget",
+        "@type" : "xsd:anyURI"
+    },
+    "default-graph" : {
+        "@id" : "hctl:hasTarget",
+        "@type" : "xsd:anyURI"
+    },
+    "internal" : {
+        "@id" : "sdt:internal",
+        "@type" : "xsd:boolean"
+    },
+
+    "cn" : {
+        "@id" : "sdt:cn",
+        "@type" : "@id"
+    },
+    "Digital_Twin_Connection" : {
+        "@id" : "sdt:Digital_Twin_Connection",
+        "@type" : "@id"
+    },
+    "Digital_Twin_Service" : {
+        "@id" : "sdt:Digital_Twin_Service",
+        "@type" : "@id"
+    },
+    "SDT" : {
+        "@id" : "sdt:SDT",
+        "@type" : "@id"
+    },
+    "connections" : {
+        "@id" : "sdt:connections",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "dt_connections" : {
+        "@id" : "sdt:dt_connections",
+        "@type" : "@id",
+        "@container" : "@list"
+    },
+    "function" : {
+        "@id" : "sdt:function",
+        "@type" : "xsd:string"
+    }
+
+}

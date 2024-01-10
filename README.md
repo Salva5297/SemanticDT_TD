@@ -270,7 +270,7 @@
 ### Connections
 | Property | Required | Data type | Description |
 | ---- | ---- | ---- | ---- |
-| `@type` | required | IRI | This must be "DD" or "SS". |
+| `@type` | required | IRI | This must be "Digital_Twin_Data" or "Digital_Twin_Service". |
 | `@id` | required | IRI / URN | An identifier for the Connection. |
 | `name` | optional | *string* | A localizable name for display. |
 | `comment` | optional | *string* | A comment for model authors. |
@@ -300,7 +300,7 @@
 		"connections" : [
 			{
 				"@id" : "sdt:1:service:1",
-				"@type" : "SS",
+				"@type" : "Digital_Twin_Service",
 				"name" : "Service 1",
 				"description" : "Service 1 of the SDT",
 				"comment" : "Just a comment.",
@@ -310,7 +310,7 @@
 			},
 			{
 				"@id" : "sdt:1:ifc_file:12345",
-				"@type" : "DD",
+				"@type" : "Digital_Twin_Data",
 				"name" : "IFC File 1234",
 				"description" : "IFC File with identifier '1234', that contains the construction information of SDT1.",
 				"comment" : "Just a comment.",
