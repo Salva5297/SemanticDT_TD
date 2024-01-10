@@ -1,7 +1,12 @@
 # SemanticDT_TD
 
-## Dimensions
+## RAW CONTEXT
 
+<https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.json-ld>
+
+---
+
+## Dimensions
 
 - [x] Physical Entities (Sensors/Actuators/Devices)
 	- [x] Components
