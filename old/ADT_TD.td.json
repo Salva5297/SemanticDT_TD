@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1",
+        {
+            "dt": "https://digitaltwin.iot.linkeddata.es/def/dt#",
+            "data": "https://digitaltwin.iot.linkeddata.es/resources/"
+        }
+    ],
+    "id": "data:ADT-TD-1",
+    "@type": "dt:DigitalTwin",
+    "title": "Digital Twin Thing Description",
+    "description": "An Aggregate Digital Twin composed of Digital Twins.",
+    "base" : "data:",
+    "pe": {
+        "type": "dt:PhysicalEntity",
+        "forms": [{"href": "https://pe.example.com/td"}]
+    },
+    "ve": {
+        "type": "dt:VirtualEntity",
+        "forms": [{"href": "https://ve.example.com/td"}]
+    },
+    "dd": {
+        "type": "dt:DigitalTwinData",
+        "forms": [{"href": "https://dt.example.com/td"}]
+    },
+    "cn": {
+        "type": "dt:Connections",
+        "forms": [{"href": "https://cn.example.com/td"}]
+    },
+    "aggregates": {
+        "type": "dt:Digital Twin",
+        "forms": [{"href": "https://aggregates.example.com/td"}]
+    },
+    "properties": {
+        "status": {
+            "type": "string",
+            "forms": [{"href": "https://mylamp.example.com/status"}]
+        }
+    },
+    "actions": {
+        "toggle": {
+            "forms": [{"href": "https://mylamp.example.com/toggle"}]
+        }
+    },
+    "events": {
+        "overheating": {
+            "data": {"type": "string"},
+            "forms": [{
+                "href": "https://mylamp.example.com/oh",
+                "subprotocol": "longpoll"
+            }]
+        }
+    },
+    "links" : []
+}
