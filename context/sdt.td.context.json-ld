@@ -1,13 +1,13 @@
 {
     "sdt" : "https://semanticdt.linkeddata.es/def/sdt#",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
     "dcterms" : "http://purl.org/dc/terms/",
     "saref" : "https://w3id.org/saref#",
     "hctl" : "https://www.w3.org/2019/wot/hypermedia#",
     "td" : "https://www.w3.org/2019/wot/td#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
 
     
     "pe" : {
