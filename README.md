@@ -23,7 +23,7 @@
 	- [x] Internal
 	- [x] External --> External DTs --> In this case, it is a definition of a DTA not a DTI
 
-- [] Add formats to context
+- [ ] Add formats to context
 ---
 ## Physical Entities
 | Property | Required | Data type | Description |
