@@ -1,0 +1,47 @@
+{
+    "id": "5a5957c2-d1ae-4d7f-8716-2b0425a69a6d",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "description": "construction Information Resource in project b3fe643d-f9f2-4e14-bf3c-95343d63c850",
+    "links": [],
+    "properties": {
+        "platform:hasFileURL": {
+            "forms": [
+                {
+                    "href": "https://dtp.cogito-project.com/file/1c28d21c-f5d7-4b84-8cb8-3b518dbb9581/download",
+                    "type": "construction"
+                }
+            ]
+        },
+        "platform:hasKnowledgeGraph": {
+            "forms": [
+                {
+                    "href": "https://data.cogito.iot.linkeddata.es/resources/b3fe643d-f9f2-4e14-bf3c-95343d63c850/5a5957c2-d1ae-4d7f-8716-2b0425a69a6d",
+                    "type": "text/turtle"
+                }
+            ]
+        }
+    },
+    "title": "construction Information Resource Thing Description",
+    "registration": {
+        "created": "2023-12-05T22:15:54.213Z",
+        "modified": "2023-12-05T22:15:54.213Z"
+    },
+    "@context": [
+        "https://www.w3.org/2019/wot/td/v1",
+        {
+            "qual": "https://cogito.iot.linkeddata.es/def/quality#",
+            "platform": "https://cogito.iot.linkeddata.es/def/platform#"
+        },
+        "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld"
+    ],
+    "security": [
+        "nosec_sc"
+    ],
+    "@type": [
+        "qual:InformationResource"
+    ]
+}

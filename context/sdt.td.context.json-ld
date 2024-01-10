@@ -7,6 +7,7 @@
     "dcterms" : "http://purl.org/dc/terms/",
     "saref" : "https://w3id.org/saref#",
     "hctl" : "https://www.w3.org/2019/wot/hypermedia#",
+    "td" : "https://www.w3.org/2019/wot/td#",
 
     
     "pe" : {
@@ -28,11 +29,11 @@
         "@container" : "@list"
     },
     "name" : {
-        "@id" : "dcterms:title",
+        "@id" : "td:title",
         "@type" : "xsd:string"
     },
     "description" : {
-        "@id" : "dcterms:description",
+        "@id" : "td:description",
         "@type" : "xsd:string"
     },
     "comment" : {
