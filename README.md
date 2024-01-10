@@ -30,7 +30,7 @@
 | --- | --- | --- | --- |
 | `@type` | required | IRI | This must be "Physical Entity". |
 | `@id` | required | IRI / URN | An identifier for the Physical Entity. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `components` | required | set of [Components](#components) | A set of components that are described in the Physical Entities. |
@@ -39,7 +39,7 @@
 | ---- | ---- | ---- | ---- |
 | `@type` | required | IRI | This must be "Component", "Sensor" or "Actuator". |
 | `@id` | optional | IRI | An identifier for the Component. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `href` | required | IRI | A link where the model is allocated. |
@@ -80,7 +80,7 @@
 | --- | --- | --- | --- |
 | `@type` | required | IRI | This must be "Virtual Entity". |
 | `@id` | required | IRI / URN | An identifier for the Virtual Entity. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `models` | required | set of [Models](#models) | A set of models that define the contents of this Virtual Entity. |
@@ -89,7 +89,7 @@
 | --- | --- | --- | --- |
 | `@type` | required | IRI | This must be "Model" (Models described in the ontology). |
 | `@id` | optional | IRI | An identifier for the Model. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `href` | required | IRI | A link where the model is allocated. |
@@ -126,7 +126,7 @@
 | --- | --- | --- | --- |
 | `@type` | required | IRI | This must be "Format". |
 | `@id` | optional | IRI | An identifier for the Format. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `href` | required | IRI | A link where the model is allocated. |
@@ -208,7 +208,7 @@
 | ---- | ---- | ---- | ---- |
 | `@type` | required | IRI | This must be "Digital Twin Data". |
 | `@id` | required | IRI / URN | An identifier for the Digital Twin Data. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `storages` | required | set of [Storages](#storages) | A set of models that define the storages of this Digital Twin Data. |
@@ -217,7 +217,7 @@
 | ---- | ---- | ---- | ---- |
 | `@type` | required | IRI | This must be "Triplestore", "FileStorage" or "File". |
 | `@id` | required | IRI / URN | An identifier for the Storage. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `endpoint` | required | IRI | A link where the storage can be queried to obtain the information. |
@@ -268,7 +268,7 @@
 | ---- | ---- | ---- | ---- |
 | `@type` | required | IRI | This must be "Digital Twin Connection", "DD-SS", "DD-DD" or "SS-SS". |
 | `@id` | required | IRI / URN | An identifier for the Digital Twin Connection. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `connections` | required | set of [Connections](#connections) | A set of connections that define the Digital Twin Connections. |
@@ -278,7 +278,7 @@
 | ---- | ---- | ---- | ---- |
 | `@type` | required | IRI | This must be "Digital_Twin_Data" or "Digital_Twin_Service". |
 | `@id` | required | IRI / URN | An identifier for the Connection. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `internal` | required | *boolean* | A *boolean* value that informs if the element of the connection is in the SDT or is outside of it. |
@@ -289,7 +289,7 @@
 | ---- | ---- | ---- | ---- |
 | `@type` | required | IRI | This must be "SDT". |
 | `@id` | required | IRI / URN | An identifier for the SDT. |
-| `name` | optional | *string* | A localizable name for display. |
+| `title` | optional | *string* | A localizable title for display. |
 | `comment` | optional | *string* | A comment for model authors. |
 | `description` | optional | *string* | A localizable description for display. |
 | `href` | required | IRI | A link where the SDT Thing Description is allocated. |

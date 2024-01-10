@@ -28,7 +28,7 @@
         "@type" : "@id",
         "@container" : "@list"
     },
-    "name" : {
+    "title" : {
         "@id" : "td:title",
         "@type" : "xsd:string"
     },
