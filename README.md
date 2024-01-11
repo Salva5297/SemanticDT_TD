@@ -2,7 +2,7 @@
 
 ## RAW CONTEXT
 
-<https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.json-ld>
+<https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld>
 
 ---
 
