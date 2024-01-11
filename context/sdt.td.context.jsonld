@@ -9,7 +9,7 @@
     "td" : "https://www.w3.org/2019/wot/td#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "pe" : {
-        "@id" : "sdt:pe",
+        "@id" : "sdt:hasPhysicalEntities",
         "@type" : "@id",
         "@container" : "@list"
     },
@@ -22,7 +22,7 @@
         "@type" : "@id"
     },
     "components" : {
-        "@id" : "sdt:components",
+        "@id" : "sdt:hasComponents",
         "@type" : "@id",
         "@container" : "@list"
     },
@@ -34,10 +34,6 @@
         "@id" : "td:description",
         "@type" : "xsd:string"
     },
-    "comment" : {
-        "@id" : "rdfs:comment",
-        "@type" : "xsd:string"
-    },
     "Sensor" : {
         "@id" : "saref:Sensor",
         "@type" : "@id"
@@ -47,7 +43,7 @@
         "@type" : "@id"
     },
     "ve" : {
-        "@id" : "sdt:ve",
+        "@id" : "sdt:hasVirtualEntities",
         "@type" : "@id"
     },
     "VirtualEntity" : {
@@ -59,15 +55,15 @@
         "@type" : "@id"
     },
     "Ontology_Model" : {
-        "@id" : "sdt:Ontology_Model",
+        "@id" : "sdt:OntologyModel",
         "@type" : "@id"
     },
     "SHACL_Shape_Model" : {
-        "@id" : "sdt:SHACL_Shape_Model",
+        "@id" : "sdt:SHACLModel",
         "@type" : "@id"
     },
     "Mapping_Model" : {
-        "@id" : "sdt:Mapping_Model",
+        "@id" : "sdt:MappingModel",
         "@type" : "@id"
     },
     "Format" : {
@@ -79,26 +75,26 @@
         "@type" : "xsd:anyURI"
     },
     "models" : {
-        "@id" : "sdt:models",
+        "@id" : "sdt:hasModels",
         "@type" : "@id",
         "@container" : "@list"
     },
-    "extends" : {
-        "@id" : "sdt:extends",
+    "aggregates" : {
+        "@id" : "sdt:aggregates",
         "@type" : "@id",
         "@container" : "@list"
     },
     "formats" : {
-        "@id" : "sdt:formats",
+        "@id" : "sdt:hasFormats",
         "@type" : "@id",
         "@container" : "@list"
     },
-    "format" : {
-        "@id" : "dcterms:format",
+    "extension" : {
+        "@id" : "sdt:hasExtension",
         "@type" : "@id"
     },
     "dd" : {
-        "@id" : "sdt:dd",
+        "@id" : "sdt:DigitalTwinData",
         "@type" : "@id"
     },
     "Digital_Twin_Data" : {
@@ -117,52 +113,48 @@
         "@id" : "sdt:File",
         "@type" : "@id"
     },
-    "storages" : {
-        "@id" : "sdt:storages",
+    "data" : {
+        "@id" : "sdt:hasData",
         "@type" : "@id",
         "@container" : "@list"
     },
-    "endpoint" : {
-        "@id" : "hctl:hasTarget",
-        "@type" : "xsd:anyURI"
-    },
     "default-graph" : {
-        "@id" : "hctl:hasTarget",
+        "@id" : "sdt:hasDefaultGraph",
         "@type" : "xsd:anyURI"
     },
     "internal" : {
-        "@id" : "sdt:internal",
+        "@id" : "sdt:isInternal",
         "@type" : "xsd:boolean"
     },
 
     "cn" : {
-        "@id" : "sdt:cn",
+        "@id" : "sdt:hasDigitalTwinConnections",
         "@type" : "@id"
     },
     "Digital_Twin_Connection" : {
-        "@id" : "sdt:Digital_Twin_Connection",
+        "@id" : "sdt:DigitalTwinConnection",
         "@type" : "@id"
     },
     "Digital_Twin_Service" : {
-        "@id" : "sdt:Digital_Twin_Service",
+        "@id" : "sdt:DigitalTwinService",
         "@type" : "@id"
     },
     "SDT" : {
-        "@id" : "sdt:SDT",
+        "@id" : "sdt:SemanticDigitalTwin",
         "@type" : "@id"
     },
     "connections" : {
-        "@id" : "sdt:connections",
+        "@id" : "sdt:hasConnections",
         "@type" : "@id",
         "@container" : "@list"
     },
-    "dt_connections" : {
-        "@id" : "sdt:dt_connections",
+    "sdt_connections" : {
+        "@id" : "sdt:hasSDTConnections",
         "@type" : "@id",
         "@container" : "@list"
     },
     "function" : {
-        "@id" : "sdt:function",
+        "@id" : "sdt:hasFunction",
         "@type" : "xsd:string"
     }
 

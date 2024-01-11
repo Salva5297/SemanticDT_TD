@@ -1,0 +1,360 @@
+{
+    "@context":[
+       "https://www.w3.org/2019/wot/td/v1",
+       "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld",
+       {
+         "sdt" : "https://semanticdt.linkeddata.es/def/sdt#",
+         "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+         "owl" : "http://www.w3.org/2002/07/owl#",
+         "xsd" : "http://www.w3.org/2001/XMLSchema#",
+         "dcterms" : "http://purl.org/dc/terms/",
+         "saref" : "https://w3id.org/saref#",
+         "hctl" : "https://www.w3.org/2019/wot/hypermedia#",
+         "td" : "https://www.w3.org/2019/wot/td#",
+         "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+         "pe" : {
+             "@id" : "sdt:pe",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "PhysicalEntity" : {
+             "@id" : "sdt:PhysicalEntity",
+             "@type" : "@id"
+         },
+         "Component" : {
+             "@id" : "sdt:Component",
+             "@type" : "@id"
+         },
+         "components" : {
+             "@id" : "sdt:components",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "title" : {
+             "@id" : "td:title",
+             "@type" : "xsd:string"
+         },
+         "description" : {
+             "@id" : "td:description",
+             "@type" : "xsd:string"
+         },
+         "comment" : {
+             "@id" : "rdfs:comment",
+             "@type" : "xsd:string"
+         },
+         "Sensor" : {
+             "@id" : "saref:Sensor",
+             "@type" : "@id"
+         },
+         "Actuator" : {
+             "@id" : "saref:Actuator",
+             "@type" : "@id"
+         },
+         "ve" : {
+             "@id" : "sdt:ve",
+             "@type" : "@id"
+         },
+         "VirtualEntity" : {
+             "@id" : "sdt:VirtualEntity",
+             "@type" : "@id"
+         },
+         "Model" : {
+             "@id" : "sdt:Model",
+             "@type" : "@id"
+         },
+         "Ontology_Model" : {
+             "@id" : "sdt:Ontology_Model",
+             "@type" : "@id"
+         },
+         "SHACL_Shape_Model" : {
+             "@id" : "sdt:SHACL_Shape_Model",
+             "@type" : "@id"
+         },
+         "Mapping_Model" : {
+             "@id" : "sdt:Mapping_Model",
+             "@type" : "@id"
+         },
+         "Format" : {
+             "@id" : "sdt:Format",
+             "@type" : "@id"
+         },
+         "href" : {
+             "@id" : "hctl:hasTarget",
+             "@type" : "xsd:anyURI"
+         },
+         "models" : {
+             "@id" : "sdt:models",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "extends" : {
+             "@id" : "sdt:extends",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "formats" : {
+             "@id" : "sdt:formats",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "format" : {
+             "@id" : "dcterms:format",
+             "@type" : "@id"
+         },
+         "dd" : {
+             "@id" : "sdt:dd",
+             "@type" : "@id"
+         },
+         "Digital_Twin_Data" : {
+             "@id" : "sdt:Digital_Twin_Data",
+             "@type" : "@id"
+         },
+         "Triplestore" : {
+             "@id" : "sdt:Triplestore",
+             "@type" : "@id"
+         },
+         "FileStorage" : {
+             "@id" : "sdt:FileStorage",
+             "@type" : "@id"
+         },
+         "File" : {
+             "@id" : "sdt:File",
+             "@type" : "@id"
+         },
+         "storages" : {
+             "@id" : "sdt:storages",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "endpoint" : {
+             "@id" : "hctl:hasTarget",
+             "@type" : "xsd:anyURI"
+         },
+         "default-graph" : {
+             "@id" : "hctl:hasTarget",
+             "@type" : "xsd:anyURI"
+         },
+         "internal" : {
+             "@id" : "sdt:internal",
+             "@type" : "xsd:boolean"
+         },
+ 
+         "cn" : {
+             "@id" : "sdt:cn",
+             "@type" : "@id"
+         },
+         "Digital_Twin_Connection" : {
+             "@id" : "sdt:Digital_Twin_Connection",
+             "@type" : "@id"
+         },
+         "Digital_Twin_Service" : {
+             "@id" : "sdt:Digital_Twin_Service",
+             "@type" : "@id"
+         },
+         "SDT" : {
+             "@id" : "sdt:SDT",
+             "@type" : "@id"
+         },
+         "connections" : {
+             "@id" : "sdt:connections",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "dt_connections" : {
+             "@id" : "sdt:dt_connections",
+             "@type" : "@id",
+             "@container" : "@list"
+         },
+         "function" : {
+             "@id" : "sdt:function",
+             "@type" : "xsd:string"
+         }
+ 
+     }
+       
+       
+    ],
+    "securityDefinitions":{
+       "nosec_sc":{
+          "scheme":"nosec"
+       }
+    },
+    "security":[
+       "nosec_sc"
+    ],
+    "id":"5a5957c2-d1ae-4d7f-8716-2b0425a69a6d",
+    "@type":"sdt:SDT",
+    "title":"construction Information Resource Thing Description",
+    "description":"construction Information Resource in project b3fe643d-f9f2-4e14-bf3c-95343d63c850",
+    "properties":{},
+    "actions":{},
+    "events":{},
+    "links":[],
+    "pe" : [
+       {
+          "@id" : "data:SDT/5a5957c2-d1ae-4d7f-8716-2b0425a69a6d/pe/1",
+          "@type" : "Physical Entity",
+          "title" : "Physical Entity 1",
+          "description" : "Physical Entity 1 description.",
+          "comment" : "Just a Comment.",
+          "components" : [
+             {
+                "@id" : "a5ab8de2-96d1-4ebc-8216-f777f5c1aa83",
+                "@type" : "Sensor",
+                "title" : "Name of the Sensor Thing Description.",
+                "description" : "Description of the Sensor Thing Description.",
+                "href" : "https://.../td/a5ab8de2-96d1-4ebc-8216-f777f5c1aa83"
+             },
+             {
+                "@id" : "6388d1bc-06db-41cc-af64-298cc9728c27",
+                "@type" : "Actuator",
+                "title" : "Name of the Actuator Thing Description.",
+                "description" : "Description of the Actuator Thing Description.",
+                "href" : "https://.../td/6388d1bc-06db-41cc-af64-298cc9728c27"
+             }
+          ]
+       }
+    ],
+    "ve" : [
+       {
+          "@id" : "data:/5a5957c2-d1ae-4d7f-8716-2b0425a69a6d/ve/1",
+          "@type" : "Virtual Entity",
+          "title" : "Virtual Entity 1",
+          "description" : "Virtual Entity 1 description.",
+          "comment" : "Just a Comment.",
+          "models" : [
+             {
+                "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:onto",
+                "@type" : "Ontology_Model",
+                "title" : "Ontology",
+                "description" : "Description of the Ontology",
+                "extends" : ["https://.../def/onto#"],
+                "formats" : [
+                   {
+                      "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:format:ttl",
+                      "@type" : "Format",
+                      "title" : "Turtle",
+                      "comment" : "",
+                      "description" : "Contains Ontology X Extension in Turtle Format.",
+                      "href" : "https://.../*.ttl",
+                      "format" : "ttl"
+                   },
+                   {
+                      "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:format:json-ld",
+                      "@type" : "Format",
+                      "title" : "JSON-LD",
+                      "comment" : "",
+                      "description" : "Contains Ontology X Extension in JSON-LD Format.",
+                      "href" : "https://.../*.json",
+                      "format" : "json-ld"
+                   },
+                   {
+                      "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:format:xml",
+                      "@type" : "Format",
+                      "title" : "XML",
+                      "comment" : "",
+                      "description" : "Contains Ontology X Extension in XML format.",
+                      "href" : "https://.../*.xml",
+                      "format" : "xml"
+                   }
+                ]
+             },
+             {
+                "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:shacl",
+                "@type" : "SHACL_Shapes_Model",
+                "title" : "SHACL Shapes",
+                "description" : "SHACL Shapes used to validate the Knowledge Graph information of the DT",
+                "extends" : ["https://.../original.ttl"],
+                "formats" : [
+                   {
+                      "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:format:ttl",
+                      "@type" : "Format",
+                      "title" : "Turtle",
+                      "comment" : "",
+                      "description" : "Contains SHACL Shapes Extension in Turtle Format.",
+                      "href" : "https://.../*.ttl",
+                      "format" : "ttl"
+                   }
+                ]
+             }
+          ]
+       }
+    ],
+    "dd" : [
+       {
+          "@id" : "data:SDT/5a5957c2-d1ae-4d7f-8716-2b0425a69a6d/dd/1",
+          "@type" : "Digital Twin Data",
+          "title" : "Digital Twin Data 1",
+          "description" : "Digital Twin Data 1 description.",
+          "comment" : "Just a comment.",
+          "storages" : [
+             {
+                "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:triplestore",
+                "@type" : "Triplestore",
+                "title" : "Ontotext GraphDB Triplestore",
+                "description" : "Ontotext GraphDB Triplestore used to store knowledge graphs.",
+                "comment" : "Just a comment.",
+                "endpoint" : "https://triplestore.../sparql",
+                "default-graph" : "https://triplestore.../statements/default-graph",
+                "format" : "rdf",
+                "internal" : "true"
+             },
+             {
+                "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:ifc_file:12345",
+                "@type" : "File",
+                "title" : "IFC File 1234",
+                "description" : "IFC File with identifier '1234', that contains the construction information of SDT1.",
+                "comment" : "Just a comment.",
+                "endpoint" : "https://dtp.../files/x.ifc",
+                "format" : "ifc",
+                "internal" : "false"
+             }
+          ]
+       }
+    ],
+    "cn" : [
+       {
+          "@id" : "data:SDT/5a5957c2-d1ae-4d7f-8716-2b0425a69a6d/cn/1",
+          "@type" : "Digital Twin Connection",
+          "title" : "Digital Twin Connection 1",
+          "description" : "Digital Twin Connection 1 description.",
+          "comment" : "Just a comment.",
+          "connections" : [
+             {
+                "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:service:1",
+                "@type" : "Digital_Twin_Service",
+                "title" : "Service 1",
+                "description" : "Service 1 of the SDT",
+                "comment" : "Just a comment.",
+                "href" : "https://service1.../execute_job",
+                "function" : "client",
+                "internal" : "true"
+             },
+             {
+                "@id" : "sdt:5a5957c2-d1ae-4d7f-8716-2b0425a69a6d:ifc_file:12345",
+                "@type" : "Digital_Twin_Data",
+                "title" : "IFC File 1234",
+                "description" : "IFC File with identifier '1234', that contains the construction information of SDT1.",
+                "comment" : "Just a comment.",
+                "href" : "https://dtp.../files/x.ifc",
+                "function" : "server",
+                "internal" : "false"
+             }
+          ],
+          "dt_connections" : [
+             {
+                "@id" : "f5f94ac4-d2d0-48e0-a7fb-c9ceeea1a31d",
+                "@type" : "SDT",
+                "title" : "Semantic Digital Twin f5f94ac4-d2d0-48e0-a7fb-c9ceeea1a31d",
+                "description" : "Semantic Digital Twin f5f94ac4-d2d0-48e0-a7fb-c9ceeea1a31d that makes function X",
+                "comment" : "Just a comment.",
+                "href" : "https://.../td/f5f94ac4-d2d0-48e0-a7fb-c9ceeea1a31d"
+             }
+          ]
+       }
+    ],
+    "registration":{
+       "created":"2023-12-05T22:15:54.213Z",
+       "modified":"2023-12-05T22:15:54.213Z"
+    }
+ }
