@@ -1,8 +1,9 @@
 {
    "@context":[
       "https://www.w3.org/2019/wot/td/v1",
-      "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld",
-      "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld"
+      "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld",
+      "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld"
+      
    ],
    "securityDefinitions":{
       "nosec_sc":{
@@ -33,14 +34,14 @@
                "@type" : "Sensor",
                "title" : "Name of the Sensor Thing Description.",
                "description" : "Description of the Sensor Thing Description.",
-               "href" : ["https://.../td/a5ab8de2-96d1-4ebc-8216-f777f5c1aa83"]
+               "href" : "https://.../td/a5ab8de2-96d1-4ebc-8216-f777f5c1aa83"
             },
             {
                "@id" : "6388d1bc-06db-41cc-af64-298cc9728c27",
                "@type" : "Actuator",
                "title" : "Name of the Actuator Thing Description.",
                "description" : "Description of the Actuator Thing Description.",
-               "href" : ["https://.../td/6388d1bc-06db-41cc-af64-298cc9728c27"]
+               "href" : "https://.../td/6388d1bc-06db-41cc-af64-298cc9728c27"
             }
          ]
       }
