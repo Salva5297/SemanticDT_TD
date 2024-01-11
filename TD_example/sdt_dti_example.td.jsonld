@@ -2,7 +2,7 @@
    "@context":[
       "https://www.w3.org/2019/wot/td/v1",
       "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld",
-      "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.json-ld"
+      "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld"
    ],
    "securityDefinitions":{
       "nosec_sc":{
