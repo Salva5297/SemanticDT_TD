@@ -8,8 +8,6 @@
     "hctl" : "https://www.w3.org/2019/wot/hypermedia#",
     "td" : "https://www.w3.org/2019/wot/td#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-
-    
     "pe" : {
         "@id" : "sdt:pe",
         "@type" : "@id",
@@ -48,8 +46,6 @@
         "@id" : "saref:Actuator",
         "@type" : "@id"
     },
-
-
     "ve" : {
         "@id" : "sdt:ve",
         "@type" : "@id"
@@ -101,8 +97,6 @@
         "@id" : "dcterms:format",
         "@type" : "@id"
     },
-
-
     "dd" : {
         "@id" : "sdt:dd",
         "@type" : "@id"
