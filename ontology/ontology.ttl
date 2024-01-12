@@ -1,0 +1,233 @@
+@prefix : <https://sdt.iot.linkeddata.es/> .
+@prefix hctl: <https://www.w3.org/2019/wot/hypermedia#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+@prefix sdt: <https://sdt.iot.linkeddata.es#> .
+@prefix td: <https://www.w3.org/2019/wot/td#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sdt:aggregates a owl:ObjectProperty ;
+    rdfs:label "aggregates" ;
+    rdfs:domain sdt:AggregatedDigitalTwin ;
+    rdfs:range sdt:DigitalTwinInstance .
+
+saref:Actuator a owl:Class ;
+    rdfs:label "Actuator" ;
+    rdfs:subClassOf sdt:PhysicalEntity .
+
+saref:Sensor a owl:Class ;
+    rdfs:label "Sensor" ;
+    rdfs:subClassOf sdt:PhysicalEntity .
+
+sdt:BehavioralModel a owl:Class ;
+    rdfs:label "Behavioral Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:File a owl:Class ;
+    rdfs:label "File" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:FileStorage a owl:Class ;
+    rdfs:label "File Storage" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:GeometricModel a owl:Class ;
+    rdfs:label "Geometric Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:InformationResource a owl:Class ;
+    rdfs:label "Information Resource" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:KnowledgeGraph a owl:Class ;
+    rdfs:label "Knowledge Graph" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:MappingModel a owl:Class ;
+    rdfs:label "Mapping Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:NonRelationalDatabase a owl:Class ;
+    rdfs:label "Non Relational Database" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:OntologyModel a owl:Class ;
+    rdfs:label "Ontology Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:PhysicalModel a owl:Class ;
+    rdfs:label "Physical Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:RelationalDatabase a owl:Class ;
+    rdfs:label "Relational Database" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:RulesModel a owl:Class ;
+    rdfs:label "Rules Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:SHACLModel a owl:Class ;
+    rdfs:label "S H A C L Model" ;
+    rdfs:subClassOf sdt:Model .
+
+sdt:Triplestore a owl:Class ;
+    rdfs:label "Triplestore" ;
+    rdfs:subClassOf sdt:Data .
+
+sdt:aggregates a owl:ObjectProperty ;
+    rdfs:label "aggregates" ;
+    rdfs:domain sdt:Model ;
+    rdfs:range sdt:Model .
+
+sdt:hasDefaultGraph a owl:DatatypeProperty ;
+    rdfs:label "has default graph" .
+
+sdt:hasExtension a owl:DatatypeProperty ;
+    rdfs:label "has extension" .
+
+sdt:hasFunction a owl:DatatypeProperty ;
+    rdfs:label "has function" .
+
+sdt:hasSDTConnections a owl:ObjectProperty ;
+    rdfs:label "has s d t connections" ;
+    rdfs:domain sdt:PhysicalEntity ;
+    rdfs:range sdt:SDTConnection .
+
+sdt:isInternal a owl:DatatypeProperty ;
+    rdfs:label "is internal" .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+hctl:hasTarget a owl:DatatypeProperty ;
+    rdfs:label "has target" .
+
+td:description a owl:DatatypeProperty ;
+    rdfs:label "description" .
+
+td:id a owl:DatatypeProperty ;
+    rdfs:label "id" .
+
+td:title a owl:DatatypeProperty ;
+    rdfs:label "title" .
+
+sdt:AggregatedDigitalTwin a owl:Class ;
+    rdfs:label "Aggregated Digital Twin" ;
+    rdfs:subClassOf sdt:SemanticDigitalTwin .
+
+sdt:Component a owl:Class ;
+    rdfs:label "Component" .
+
+sdt:Connection a owl:Class ;
+    rdfs:label "Connection" .
+
+sdt:DigitalTwinConnection a owl:Class ;
+    rdfs:label "Digital Twin Connection" .
+
+sdt:DigitalTwinData a owl:Class ;
+    rdfs:label "Digital Twin Data" .
+
+sdt:DigitalTwinInstance a owl:Class ;
+    rdfs:label "Digital Twin Instance" ;
+    rdfs:subClassOf sdt:SemanticDigitalTwin .
+
+sdt:Format a owl:Class ;
+    rdfs:label "Format" .
+
+sdt:SDTConnection a owl:Class ;
+    rdfs:label "S D T Connection" .
+
+sdt:VirtualEntity a owl:Class ;
+    rdfs:label "Virtual Entity" .
+
+sdt:hasComponents a owl:ObjectProperty ;
+    rdfs:label "has components" ;
+    rdfs:domain sdt:PhysicalEntity ;
+    rdfs:range sdt:Component .
+
+sdt:hasConnections a owl:ObjectProperty ;
+    rdfs:label "has connections" ;
+    rdfs:domain sdt:PhysicalEntity ;
+    rdfs:range sdt:Connection .
+
+sdt:hasData a owl:ObjectProperty ;
+    rdfs:label "has data" ;
+    rdfs:domain sdt:PhysicalEntity ;
+    rdfs:range sdt:Data .
+
+sdt:hasDigitalTwinConnections a owl:ObjectProperty ;
+    rdfs:label "has digital twin connections" ;
+    rdfs:domain sdt:SemanticDigitalTwin ;
+    rdfs:range sdt:DigitalTwinConnection .
+
+sdt:hasDigitalTwinData a owl:ObjectProperty ;
+    rdfs:label "has digital twin data" ;
+    rdfs:domain sdt:SemanticDigitalTwin ;
+    rdfs:range sdt:DigitalTwinData .
+
+sdt:hasFormats a owl:ObjectProperty ;
+    rdfs:label "has formats" ;
+    rdfs:domain sdt:Model ;
+    rdfs:range sdt:Format .
+
+sdt:hasModels a owl:ObjectProperty ;
+    rdfs:label "has models" ;
+    rdfs:domain sdt:PhysicalEntity ;
+    rdfs:range sdt:Model .
+
+sdt:hasPhysicalEntities a owl:ObjectProperty ;
+    rdfs:label "has physical entities" ;
+    rdfs:domain sdt:SemanticDigitalTwin ;
+    rdfs:range sdt:PhysicalEntity .
+
+sdt:hasVirtualEntities a owl:ObjectProperty ;
+    rdfs:label "has virtual entities" ;
+    rdfs:domain sdt:SemanticDigitalTwin ;
+    rdfs:range sdt:VirtualEntity .
+
+td:Thing a owl:Class ;
+    rdfs:label "Thing" .
+
+sdt:SemanticDigitalTwin a owl:Class ;
+    rdfs:label "Semantic Digital Twin" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasPhysicalEntities ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasVirtualEntities ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasDigitalTwinData ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasDigitalTwinConnections ],
+        td:Thing .
+
+sdt:Data a owl:Class ;
+    rdfs:label "Data" .
+
+sdt:PhysicalEntity a owl:Class ;
+    rdfs:label "Physical Entity" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasComponents ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasModels ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasData ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasConnections ] .
+
+sdt:Model a owl:Class ;
+    rdfs:label "Model" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty sdt:hasFormats ] .
+

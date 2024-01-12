@@ -1,5 +1,9 @@
 # SemanticDT_TD
 
+## Ontology
+
+![SDT Ontology](./ontology/sdt_ontology.svg)
+
 ## RAW CONTEXT
 
 <https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld>
