@@ -1,106 +1,119 @@
-@prefix : <https://sdt.iot.linkeddata.es/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dt: <https://dt.iot.linkeddata.es/def/digital_twin#> .
 @prefix hctl: <https://www.w3.org/2019/wot/hypermedia#> .
 @prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix saref: <https://saref.etsi.org/core#> .
-@prefix sdt: <https://sdt.iot.linkeddata.es#> .
+@prefix saref: <https://saref.etsi.org/core/> .
 @prefix td: <https://www.w3.org/2019/wot/td#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sdt:aggregates a owl:ObjectProperty ;
+dc:contributor a owl:AnnotationProperty .
+
+dc:created a owl:AnnotationProperty .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:description a owl:AnnotationProperty .
+
+dc:license a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+rdfs:comment a owl:AnnotationProperty ;
+    rdfs:label "comment" .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+dt:BehavioralModel a owl:Class ;
+    rdfs:label "Behavioral Model" ;
+    rdfs:comment "Describes the behaviors and response mechanisms of the entity (e.g. state transition, performance and disturbances)"@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:DigitalTwinAggregate a owl:Class ;
+    rdfs:label "Digital Twin Aggregate" ;
+    rdfs:comment "Describes the aggregation of all the DTIs. Unlike the DTI, the DTA may not be an independent data structure. It may be a computing construct that has access to all DTIs and queries them either ad-hoc or proactively."@en .
+
+dt:DigitalTwinDimension a owl:Class ;
+    rdfs:label "Digital Twin Dimension" ;
+    rdfs:comment "Dimensions of which the digital twin is composed."@en .
+
+dt:DigitalTwinService a owl:Class ;
+    rdfs:label "Digital Twin Service" ;
+    rdfs:subClassOf dt:Connection .
+
+dt:DigitalTwinServices a owl:Class ;
+    rdfs:label "Digital Twin Services" ;
+    rdfs:comment "This dimension of the digital twin contains all the services that are used to perform all the processes of the digital twin."@en .
+
+dt:GeometricModel a owl:Class ;
+    rdfs:label "Geometric Model" ;
+    rdfs:comment "Describes all the geometric parameters of the physical entity (e.g. shapes, sizes and assembly relations)."@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:MainComponent a owl:Class ;
+    rdfs:label "Main Component" ;
+    rdfs:comment "Main component of the Physical Entity dimension in the case of multiple."@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:MappingModel a owl:Class ;
+    rdfs:label "Mapping Model" ;
+    rdfs:comment "Model that allows the alignment of data with the objective of obtaining harmonised data from non-harmonised data."@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:OntologyModel a owl:Class ;
+    rdfs:label "Ontology Model" ;
+    rdfs:comment "Model that contains the conceptualization of the information of the digital twin. This conceptualization activity refers to the organization and structuration of the information (data, knowledge, etc.), obtained during the acquisition process, into meaningful models at the knowledge level and according to the ontology requirements specification document."@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:PhysicalModel a owl:Class ;
+    rdfs:label "Physical Model" ;
+    rdfs:comment "Responsible for providing all the physical properties (e.g. speed and force) based on dt:GeometricModel"@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:RulesModel a owl:Class ;
+    rdfs:label "Rules Model" ;
+    rdfs:comment "A set of rules extracted from the historical data obtained from the physical model, whose function is to provide the virtual entity with a judgment for decision making, optimization, evaluation, prediction and maintenance."@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:SHACLModel a owl:Class ;
+    rdfs:label "S H A C L Model" ;
+    rdfs:comment "Model that contains the data validation rules allowing the data to be validated."@en ;
+    rdfs:subClassOf dt:Connection .
+
+dt:aggregates a owl:ObjectProperty ;
     rdfs:label "aggregates" ;
-    rdfs:domain sdt:AggregatedDigitalTwin ;
-    rdfs:range sdt:DigitalTwinInstance .
+    rdfs:comment "Property that describes de action of aggregation between two different entities or dt:DigitalTwin."@en ;
+    rdfs:domain dt:AggregatedDigitalTwin,
+        dt:Model ;
+    rdfs:range dt:DigitalTwinInstance,
+        dt:Model .
+
+dt:hasExtension a owl:DatatypeProperty ;
+    rdfs:label "has extension" ;
+    rdfs:comment "Extension of the model or data with which can be found."@en .
+
+dt:isInternal a owl:DatatypeProperty ;
+    rdfs:label "is internal" ;
+    rdfs:comment "Boolean that indicates if the concept is inside or outside the digital twin."@en .
+
+dt:isProvider a owl:DatatypeProperty ;
+    rdfs:label "is provider" ;
+    rdfs:comment "Boolean that indicates if the member of the connection is the one that provides the information or a specific information, or not."@en .
 
 saref:Actuator a owl:Class ;
     rdfs:label "Actuator" ;
-    rdfs:subClassOf sdt:PhysicalEntity .
+    rdfs:subClassOf saref:Device .
 
 saref:Sensor a owl:Class ;
     rdfs:label "Sensor" ;
-    rdfs:subClassOf sdt:PhysicalEntity .
-
-sdt:BehavioralModel a owl:Class ;
-    rdfs:label "Behavioral Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:File a owl:Class ;
-    rdfs:label "File" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:FileStorage a owl:Class ;
-    rdfs:label "File Storage" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:GeometricModel a owl:Class ;
-    rdfs:label "Geometric Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:InformationResource a owl:Class ;
-    rdfs:label "Information Resource" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:KnowledgeGraph a owl:Class ;
-    rdfs:label "Knowledge Graph" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:MappingModel a owl:Class ;
-    rdfs:label "Mapping Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:NonRelationalDatabase a owl:Class ;
-    rdfs:label "Non Relational Database" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:OntologyModel a owl:Class ;
-    rdfs:label "Ontology Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:PhysicalModel a owl:Class ;
-    rdfs:label "Physical Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:RelationalDatabase a owl:Class ;
-    rdfs:label "Relational Database" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:RulesModel a owl:Class ;
-    rdfs:label "Rules Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:SHACLModel a owl:Class ;
-    rdfs:label "S H A C L Model" ;
-    rdfs:subClassOf sdt:Model .
-
-sdt:Triplestore a owl:Class ;
-    rdfs:label "Triplestore" ;
-    rdfs:subClassOf sdt:Data .
-
-sdt:aggregates a owl:ObjectProperty ;
-    rdfs:label "aggregates" ;
-    rdfs:domain sdt:Model ;
-    rdfs:range sdt:Model .
-
-sdt:hasDefaultGraph a owl:DatatypeProperty ;
-    rdfs:label "has default graph" .
-
-sdt:hasExtension a owl:DatatypeProperty ;
-    rdfs:label "has extension" .
-
-sdt:hasFunction a owl:DatatypeProperty ;
-    rdfs:label "has function" .
-
-sdt:hasSDTConnections a owl:ObjectProperty ;
-    rdfs:label "has s d t connections" ;
-    rdfs:domain sdt:PhysicalEntity ;
-    rdfs:range sdt:SDTConnection .
-
-sdt:isInternal a owl:DatatypeProperty ;
-    rdfs:label "is internal" .
-
-: a owl:Ontology ;
-    mod:createdWith <https://chowlk.linkeddata.es/> .
+    rdfs:subClassOf saref:Device .
 
 hctl:hasTarget a owl:DatatypeProperty ;
     rdfs:label "has target" .
@@ -114,120 +127,158 @@ td:id a owl:DatatypeProperty ;
 td:title a owl:DatatypeProperty ;
     rdfs:label "title" .
 
-sdt:AggregatedDigitalTwin a owl:Class ;
+dcat:Resource a owl:Class ;
+    rdfs:label "Resource" .
+
+dt: a owl:Ontology ;
+    dc:contributor "Andrea Cimmino",
+        "María Poveda Villalón",
+        "Raúl García Castro" ;
+    dc:created "2024-01-18"^^xsd:date ;
+    dc:creator "Salvador González Gerpe" ;
+    dc:description "Digital Twin ontology used to define Digital Twins and Semantic Digital Twins by dimensions."@en ;
+    dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dc:title "The Digital Twin ontology"@en ;
+    vann:preferredNamespacePrefix "dt" ;
+    vann:preferredNamespaceUri dt: ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+dt:AggregatedDigitalTwin a owl:Class ;
     rdfs:label "Aggregated Digital Twin" ;
-    rdfs:subClassOf sdt:SemanticDigitalTwin .
+    rdfs:subClassOf dt:DigitalTwin .
 
-sdt:Component a owl:Class ;
-    rdfs:label "Component" .
+dt:Component a owl:Class ;
+    rdfs:label "Component" ;
+    rdfs:comment "Subsystem, object or sensory device registered in the Physical Entity dimension."@en .
 
-sdt:Connection a owl:Class ;
-    rdfs:label "Connection" .
-
-sdt:DigitalTwinConnection a owl:Class ;
-    rdfs:label "Digital Twin Connection" .
-
-sdt:DigitalTwinData a owl:Class ;
-    rdfs:label "Digital Twin Data" .
-
-sdt:DigitalTwinInstance a owl:Class ;
+dt:DigitalTwinInstance a owl:Class ;
     rdfs:label "Digital Twin Instance" ;
-    rdfs:subClassOf sdt:SemanticDigitalTwin .
+    rdfs:comment "Describes a specific corresponding physical product that an individual Digital Twin remains linked to throughout the life of that physical product."@en ;
+    rdfs:subClassOf dt:DigitalTwin .
 
-sdt:Format a owl:Class ;
-    rdfs:label "Format" .
+dt:Format a owl:Class ;
+    rdfs:label "Format" ;
+    rdfs:comment "Extension format in which the model or data is available."@en .
 
-sdt:SDTConnection a owl:Class ;
-    rdfs:label "S D T Connection" .
-
-sdt:VirtualEntity a owl:Class ;
-    rdfs:label "Virtual Entity" .
-
-sdt:hasComponents a owl:ObjectProperty ;
+dt:hasComponents a owl:ObjectProperty ;
     rdfs:label "has components" ;
-    rdfs:domain sdt:PhysicalEntity ;
-    rdfs:range sdt:Component .
+    rdfs:comment "Property that describes the different components that the dt:PhysicalEntitty contains."@en ;
+    rdfs:domain dt:PhysicalEntity ;
+    rdfs:range dt:Component .
 
-sdt:hasConnections a owl:ObjectProperty ;
+dt:hasConnections a owl:ObjectProperty ;
     rdfs:label "has connections" ;
-    rdfs:domain sdt:PhysicalEntity ;
-    rdfs:range sdt:Connection .
+    rdfs:comment "Property that describes the different connections that the dt:DigitalTwinConnections contains."@en ;
+    rdfs:domain dt:DigitalTwinConnection ;
+    rdfs:range dt:Connection .
 
-sdt:hasData a owl:ObjectProperty ;
+dt:hasData a owl:ObjectProperty ;
     rdfs:label "has data" ;
-    rdfs:domain sdt:PhysicalEntity ;
-    rdfs:range sdt:Data .
+    rdfs:comment "Property that describes the different data that the dt:DigitalTwinData contains."@en ;
+    rdfs:domain dt:DigitalTwinData ;
+    rdfs:range dcat:Resource .
 
-sdt:hasDigitalTwinConnections a owl:ObjectProperty ;
+dt:hasDigitalTwinConnections a owl:ObjectProperty ;
     rdfs:label "has digital twin connections" ;
-    rdfs:domain sdt:SemanticDigitalTwin ;
-    rdfs:range sdt:DigitalTwinConnection .
+    rdfs:comment "Property that describes the different Digital Twin Connections that the digital twin contains."@en ;
+    rdfs:domain dt:DigitalTwin ;
+    rdfs:range dt:DigitalTwinConnection .
 
-sdt:hasDigitalTwinData a owl:ObjectProperty ;
+dt:hasDigitalTwinData a owl:ObjectProperty ;
     rdfs:label "has digital twin data" ;
-    rdfs:domain sdt:SemanticDigitalTwin ;
-    rdfs:range sdt:DigitalTwinData .
+    rdfs:comment "Property that describes the different Digital Twin Data that the digital twin contains."@en ;
+    rdfs:domain dt:DigitalTwin ;
+    rdfs:range dt:DigitalTwinData .
 
-sdt:hasFormats a owl:ObjectProperty ;
+dt:hasFormats a owl:ObjectProperty ;
     rdfs:label "has formats" ;
-    rdfs:domain sdt:Model ;
-    rdfs:range sdt:Format .
+    rdfs:comment "Property that describes the different extension formats that the models or data can be found."@en ;
+    rdfs:domain dt:Model ;
+    rdfs:range dt:Format .
 
-sdt:hasModels a owl:ObjectProperty ;
+dt:hasModels a owl:ObjectProperty ;
     rdfs:label "has models" ;
-    rdfs:domain sdt:PhysicalEntity ;
-    rdfs:range sdt:Model .
+    rdfs:comment "Property that describes the different models that the dt:VirtualEntitty contains."@en ;
+    rdfs:domain dt:VirtualEntity ;
+    rdfs:range dt:Model .
 
-sdt:hasPhysicalEntities a owl:ObjectProperty ;
+dt:hasPhysicalEntities a owl:ObjectProperty ;
     rdfs:label "has physical entities" ;
-    rdfs:domain sdt:SemanticDigitalTwin ;
-    rdfs:range sdt:PhysicalEntity .
+    rdfs:comment "Property that describes the different Physical Entities that the digital twin contains."@en ;
+    rdfs:domain dt:DigitalTwin ;
+    rdfs:range dt:PhysicalEntity .
 
-sdt:hasVirtualEntities a owl:ObjectProperty ;
+dt:hasVirtualEntities a owl:ObjectProperty ;
     rdfs:label "has virtual entities" ;
-    rdfs:domain sdt:SemanticDigitalTwin ;
-    rdfs:range sdt:VirtualEntity .
+    rdfs:comment "Property that describes the different Virtual Entities that the digital twin contains."@en ;
+    rdfs:domain dt:DigitalTwin ;
+    rdfs:range dt:VirtualEntity .
 
 td:Thing a owl:Class ;
     rdfs:label "Thing" .
 
-sdt:SemanticDigitalTwin a owl:Class ;
-    rdfs:label "Semantic Digital Twin" ;
+dt:DigitalTwinConnection a owl:Class ;
+    rdfs:label "Digital Twin Connection" ;
+    rdfs:comment "This dimension of the digital twin contains all the existing connections that are between the different dimensions of the digital twins and the information used."@en ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasPhysicalEntities ],
+            owl:onProperty dt:hasConnections ],
+        dt:Connection .
+
+dt:DigitalTwinData a owl:Class ;
+    rdfs:label "Digital Twin Data" ;
+    rdfs:comment "This dimension of the digital twin contains all the data used by the digital twin."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dt:hasData ],
+        dt:Connection .
+
+dt:PhysicalEntity a owl:Class ;
+    rdfs:label "Physical Entity" ;
+    rdfs:comment "This dimension of the digital twin consists of various subsystems, objects and sensory devices. These subsystems can include dynamic systems, control systems, maintenance systems, etc., and can be combined for a specific task."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dt:hasComponents ],
+        dt:Connection .
+
+dt:VirtualEntity a owl:Class ;
+    rdfs:label "Virtual Entity" ;
+    rdfs:comment "This dimension of the digital twin consists of various data models that represents all the information allocated in the digital twin."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dt:hasModels ],
+        dt:Connection .
+
+saref:Device a owl:Class ;
+    rdfs:label "Device" ;
+    rdfs:subClassOf dt:Connection .
+
+dt:Model a owl:Class ;
+    rdfs:label "Model" ;
+    rdfs:comment "Representation or conceptualization of the data registered in the Virtual Entity dimension."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dt:hasFormats ] .
+
+dt:DigitalTwin a owl:Class ;
+    rdfs:label "Digital Twin" ;
+    rdfs:comment "A realistic representation of all product life cycle components using physical, virtual and interaction data."@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dt:hasPhysicalEntities ],
         [ a owl:Restriction ;
             owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasVirtualEntities ],
+            owl:onProperty dt:hasVirtualEntities ],
         [ a owl:Restriction ;
             owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasDigitalTwinData ],
+            owl:onProperty dt:hasDigitalTwinData ],
         [ a owl:Restriction ;
             owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasDigitalTwinConnections ],
+            owl:onProperty dt:hasDigitalTwinConnections ],
         td:Thing .
 
-sdt:Data a owl:Class ;
-    rdfs:label "Data" .
-
-sdt:PhysicalEntity a owl:Class ;
-    rdfs:label "Physical Entity" ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasComponents ],
-        [ a owl:Restriction ;
-            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasModels ],
-        [ a owl:Restriction ;
-            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasData ],
-        [ a owl:Restriction ;
-            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasConnections ] .
-
-sdt:Model a owl:Class ;
-    rdfs:label "Model" ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onProperty sdt:hasFormats ] .
+dt:Connection a owl:Class ;
+    rdfs:label "Connection" ;
+    rdfs:comment "Existing connection between different dt:DigitalTwinDimension."@en .
 

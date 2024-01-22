@@ -2,7 +2,7 @@
 
 ## Ontology
 
-![SDT Ontology](./ontology/sdt_ontology.svg)
+![SDT Ontology](./ontology/dt_ontology.svg)
 
 ## RAW CONTEXT
 
