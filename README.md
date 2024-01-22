@@ -6,7 +6,7 @@
 
 ## RAW CONTEXT
 
-<https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld>
+<https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/dt.td.context.jsonld>
 
 ---
 
