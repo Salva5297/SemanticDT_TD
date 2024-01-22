@@ -1,0 +1,162 @@
+{
+    "@context":[
+       "https://www.w3.org/2019/wot/td/v1",
+         {
+             "data":"https://data.cogito.iot.linkeddata.es/resources/"
+         },
+       "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld",
+       "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld"
+       
+    ],
+    "securityDefinitions":{
+       "nosec_sc":{
+          "scheme":"nosec"
+       }
+    },
+    "security":[
+       "nosec_sc"
+    ],
+    "id":"data:SDT/10wxk49yYzBegedSNG1IFJO",
+    "id2":"data:element/10056",
+    "@type":"Semantic_Digital_Twin_Instance",
+    "title":"Element 10056",
+    "description":"Element 10056 from project 55546fd7-5958-45fd-830d-bd73d3cff266",
+    "properties":{},
+    "actions":{},
+    "events":{},
+    "links":[],
+    "pe" : [
+        {
+            "id" : "data:SDT/pe/0wxk49yYzBegedSNG1IFJO",
+            "@type" : "Physical Entity",
+            "title" : "Element 10056",
+            "description" : "Physical Entity Element 10056",
+            "components" : [
+                {
+                    "@id" : "",
+                    "@type" : "",
+                    "title" : "",
+                    "description" : "",
+                    "href" : ""
+                 }
+            ]
+        }
+    ],
+    "ve" : [
+        {
+            "@id" : "data:SDT/ve/0wxk49yYzBegedSNG1IFJO",
+            "@type" : "Virtual Entity",
+            "title" : "Virtual Entity 1",
+            "description" : "Virtual Entity of SDT 0wxk49yYzBegedSNG1IFJO from project 55546fd7-5958-45fd-830d-bd73d3cff266",
+            "models" : [
+                {
+                    "@id" : "",
+                    "@type" : "Ontology_Model",
+                    "title" : "Ontology",
+                    "description" : "",
+                    "aggregates" : [""],
+                    "formats" : [
+                        {
+                            "@id" : "",
+                            "@type" : "Format",
+                            "title" : "",
+                            "description" : ".",
+                            "href" : "",
+                            "extension" : ""
+                         },
+                         {
+                            "@id" : "",
+                            "@type" : "Format",
+                            "title" : "",
+                            "description" : "",
+                            "href" : "",
+                            "extension" : ""
+                         },
+                         {
+                            "@id" : "",
+                            "@type" : "Format",
+                            "title" : "",
+                            "description" : "",
+                            "href" : "",
+                            "extension" : ""
+                         }
+                    ]
+                },
+                {
+                    "@id" : "",
+                    "@type" : "SHACL_Shapes_Model",
+                    "title" : "SHACL Shapes",
+                    "description" : "",
+                    "aggregates" : [""],
+                    "formats" : [
+                        {
+                            "@id" : "",
+                            "@type" : "Format",
+                            "title" : "",
+                            "description" : "",
+                            "href" : "",
+                            "extension" : ""
+                         }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dd" : [
+        {
+            "@id" : "data:SDT/dd/0wxk49yYzBegedSNG1IFJO",
+            "@type" : "Digital Twin Data",
+            "title" : "Digital Twin Data",
+            "description" : "",
+            "data" : [
+               {
+                  "@id" : "",
+                  "@type" : "Triplestore",
+                  "title" : "Ontotext GraphDB Triplestore",
+                  "description" : "Ontotext GraphDB Triplestore used to store knowledge graphs.",
+                  "href" : "",
+                  "default-graph" : "",
+                  "extension" : "rdf",
+                  "internal" : "true"
+               },
+               {
+                  "@id" : "",
+                  "@type" : "File",
+                  "title" : "",
+                  "description" : "",
+                  "href" : "",
+                  "extension" : "",
+                  "internal" : "false"
+               }
+            ]
+         }
+    ],
+    "cn" : [
+        {
+            "@id" : "data:SDT/cn/0wxk49yYzBegedSNG1IFJO",
+            "@type" : "Digital Twin Connection",
+            "title" : "Digital Twin Connection",
+            "description" : "Digital Twin Connection 1 description.",
+            "connections" : [
+               {
+                  "@id" : "",
+                  "@type" : "Digital_Twin_Service",
+                  "title" : "",
+                  "description" : "",
+                  "href" : "",
+                  "function" : "client",
+                  "internal" : "true"
+               },
+               {
+                  "@id" : "",
+                  "@type" : "Digital_Twin_Data",
+                  "title" : "",
+                  "description" : "",
+                  "href" : "",
+                  "function" : "server",
+                  "internal" : "false"
+               }
+            ]
+         }
+    ]
+ }

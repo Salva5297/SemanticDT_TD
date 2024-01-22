@@ -1,0 +1,32 @@
+{
+    "@context":[
+       "https://www.w3.org/2019/wot/td/v1",
+         {
+             "data":"https://data.cogito.iot.linkeddata.es/resources/"
+         },
+       "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/sdt.td.context.jsonld",
+       "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld"
+       
+    ],
+    "securityDefinitions":{
+       "nosec_sc":{
+          "scheme":"nosec"
+       }
+    },
+    "security":[
+       "nosec_sc"
+    ],
+    "id":"0wxk49yYzBegedSNG1IFJK",
+    "id2":"data:element/10098",
+    "@type":"Semantic_Digital_Twin_Instance",
+    "title":"Element 10098",
+    "description":"Element 10098 from project 55546fd7-5958-45fd-830d-bd73d3cff266",
+    "properties":{},
+    "actions":{},
+    "events":{},
+    "links":[],
+    "pe" : [],
+    "ve" : [],
+    "dd" : [],
+    "cn" : []
+ }

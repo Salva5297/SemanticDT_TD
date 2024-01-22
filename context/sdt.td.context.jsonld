@@ -1,5 +1,5 @@
 {
-    "sdt" : "https://semanticdt.linkeddata.es/def/sdt#",
+    "dt" : "https://dt.iot.linkeddata.es/def/digital_twin#",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
@@ -8,21 +8,26 @@
     "hctl" : "https://www.w3.org/2019/wot/hypermedia#",
     "td" : "https://www.w3.org/2019/wot/td#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat" : "http://www.w3.org/ns/dcat#",
     "pe" : {
-        "@id" : "sdt:hasPhysicalEntities",
+        "@id" : "dt:hasPhysicalEntities",
         "@type" : "@id",
         "@container" : "@list"
     },
     "PhysicalEntity" : {
-        "@id" : "sdt:PhysicalEntity",
+        "@id" : "dt:PhysicalEntity",
         "@type" : "@id"
     },
     "Component" : {
-        "@id" : "sdt:Component",
+        "@id" : "dt:Component",
+        "@type" : "@id"
+    },
+    "MainComponent" : {
+        "@id" : "dt:MainComponent",
         "@type" : "@id"
     },
     "components" : {
-        "@id" : "sdt:hasComponents",
+        "@id" : "dt:hasComponents",
         "@type" : "@id",
         "@container" : "@list"
     },
@@ -43,31 +48,31 @@
         "@type" : "@id"
     },
     "ve" : {
-        "@id" : "sdt:hasVirtualEntities",
+        "@id" : "dt:hasVirtualEntities",
         "@type" : "@id"
     },
     "VirtualEntity" : {
-        "@id" : "sdt:VirtualEntity",
+        "@id" : "dt:VirtualEntity",
         "@type" : "@id"
     },
     "Model" : {
-        "@id" : "sdt:Model",
+        "@id" : "dt:Model",
         "@type" : "@id"
     },
     "Ontology_Model" : {
-        "@id" : "sdt:OntologyModel",
+        "@id" : "dt:OntologyModel",
         "@type" : "@id"
     },
     "SHACL_Shape_Model" : {
-        "@id" : "sdt:SHACLModel",
+        "@id" : "dt:SHACLModel",
         "@type" : "@id"
     },
     "Mapping_Model" : {
-        "@id" : "sdt:MappingModel",
+        "@id" : "dt:MappingModel",
         "@type" : "@id"
     },
     "Format" : {
-        "@id" : "sdt:Format",
+        "@id" : "dt:Format",
         "@type" : "@id"
     },
     "href" : {
@@ -75,87 +80,90 @@
         "@type" : "xsd:anyURI"
     },
     "models" : {
-        "@id" : "sdt:hasModels",
+        "@id" : "dt:hasModels",
         "@type" : "@id",
         "@container" : "@list"
     },
     "aggregates" : {
-        "@id" : "sdt:aggregates",
+        "@id" : "dt:aggregates",
         "@type" : "@id",
         "@container" : "@list"
     },
     "formats" : {
-        "@id" : "sdt:hasFormats",
+        "@id" : "dt:hasFormats",
         "@type" : "@id",
         "@container" : "@list"
     },
     "extension" : {
-        "@id" : "sdt:hasExtension",
+        "@id" : "dt:hasExtension",
         "@type" : "@id"
     },
     "dd" : {
-        "@id" : "sdt:DigitalTwinData",
+        "@id" : "dt:DigitalTwinData",
         "@type" : "@id"
     },
     "Digital_Twin_Data" : {
-        "@id" : "sdt:Digital_Twin_Data",
+        "@id" : "dt:Digital_Twin_Data",
         "@type" : "@id"
     },
     "Triplestore" : {
-        "@id" : "sdt:Triplestore",
+        "@id" : "dt:Triplestore",
         "@type" : "@id"
     },
     "FileStorage" : {
-        "@id" : "sdt:FileStorage",
+        "@id" : "dt:FileStorage",
         "@type" : "@id"
     },
     "File" : {
-        "@id" : "sdt:File",
+        "@id" : "dt:File",
         "@type" : "@id"
     },
     "data" : {
-        "@id" : "sdt:hasData",
+        "@id" : "dt:hasData",
         "@type" : "@id",
         "@container" : "@list"
     },
     "default-graph" : {
-        "@id" : "sdt:hasDefaultGraph",
+        "@id" : "dt:hasDefaultGraph",
         "@type" : "xsd:anyURI"
     },
     "internal" : {
-        "@id" : "sdt:isInternal",
+        "@id" : "dt:isInternal",
         "@type" : "xsd:boolean"
     },
 
     "cn" : {
-        "@id" : "sdt:hasDigitalTwinConnections",
+        "@id" : "dt:hasDigitalTwinConnections",
         "@type" : "@id"
     },
     "Digital_Twin_Connection" : {
-        "@id" : "sdt:DigitalTwinConnection",
+        "@id" : "dt:DigitalTwinConnection",
         "@type" : "@id"
     },
     "Digital_Twin_Service" : {
-        "@id" : "sdt:DigitalTwinService",
+        "@id" : "dt:DigitalTwinService",
         "@type" : "@id"
     },
     "SDT" : {
-        "@id" : "sdt:SemanticDigitalTwin",
+        "@id" : "dt:SemanticDigitalTwin",
+        "@type" : "@id"
+    },
+    "Semantic_Digital_Twin_Instance" : {
+        "@id" : "dt:SemanticDigitalTwinInstance",
+        "@type" : "@id"
+    },
+    "Semantic_Digital_Twin_Aggregate" : {
+        "@id" : "dt:SemanticDigitalTwinAggregate",
         "@type" : "@id"
     },
     "connections" : {
-        "@id" : "sdt:hasConnections",
+        "@id" : "dt:hasConnections",
         "@type" : "@id",
         "@container" : "@list"
     },
-    "sdt_connections" : {
-        "@id" : "sdt:hasSDTConnections",
-        "@type" : "@id",
-        "@container" : "@list"
-    },
-    "function" : {
-        "@id" : "sdt:hasFunction",
-        "@type" : "xsd:string"
+    "provider" : {
+        "@id" : "dt:isProvider",
+        "@type" : "xsd:boolean"
     }
 
 }

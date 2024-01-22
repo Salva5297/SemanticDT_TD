@@ -1,0 +1,3002 @@
+@prefix schema: <http://schema.org#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix data:  <https://data.cogito.iot.linkeddata.es/resources#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix beo:   <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+
+data:Element_10362  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fLd" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164654" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:BuildingStorey_154
+        a                    bot:Storey ;
+        dcterms:identifier   "2EzJEtWo19UxxKehxfbQGK" ;
+        dcterms:title        "0 ABSOLUTO" ;
+        facility:belongsTo   data:Building_141 ;
+        bot:containsElement  data:Element_10362 , data:Element_12279 , data:Element_15759 , data:Element_13154 , data:Element_12195 , data:Element_16169 , data:Element_16086 , data:Element_11737 , data:Element_11611 , data:Element_2235 , data:Element_9804 , data:Element_4629 , data:Element_4503 , data:Element_11779 , data:Element_11653 , data:Element_9846 , data:Element_9720 , data:Element_4545 , data:Element_6939 , data:Element_6813 , data:Element_11695 , data:Element_9888 , data:Element_9762 , data:Element_4587 , data:Element_4461 , data:Element_13933 , data:Element_6855 , data:Element_13975 , data:Element_16007 , data:Element_11309 , data:Element_6897 , data:Element_6771 , data:Element_13891 , data:Element_11225 , data:Element_1059 , data:Element_3201 , data:Element_3327 , data:Element_13016 , data:Element_14017 , data:Element_11267 , data:Element_11141 , data:Element_3243 , data:Element_3369 , data:Element_15537 , data:Element_14059 , data:Element_15411 , data:Element_5637 , data:Element_5511 , data:Element_11183 , data:Element_3285 , data:Element_15579 , data:Element_15845 , data:Element_15453 , data:Element_1941 , data:Element_5679 , data:Element_5553 , data:Element_7917 , data:Element_15495 , data:Element_1983 , data:Element_5595 , data:Element_2109 , data:Element_7959 , data:Element_2025 , data:Element_4419 , data:Element_12951 , data:Element_7875 , data:Element_11569 , data:Element_15924 , data:Element_2067 , data:Element_9636 , data:Element_9510 , data:Element_13807 , data:Element_6729 , data:Element_6603 , data:Element_9678 , data:Element_9552 , data:Element_13849 , data:Element_13723 , data:Element_6645 , data:Element_10901 , data:Element_14796 , data:Element_10973 , data:Element_9594 , data:Element_4293 , data:Element_13765 , data:Element_6687 , data:Element_6561 , data:Element_2991 , data:Element_10014 , data:Element_11015 , data:Element_3117 , data:Element_13651 , data:Element_10056 , data:Element_11057 , data:Element_15201 , data:Element_15327 , data:Element_3159 , data:Element_1815 , data:Element_3033 , data:Element_11504 , data:Element_5427 , data:Element_5301 , data:Element_10098 , data:Element_11099 , data:Element_15243 , data:Element_15369 , data:Element_1857 , data:Element_3075 , data:Element_11420 , data:Element_1731 , data:Element_5469 , data:Element_5343 , data:Element_7737 , data:Element_7611 , data:Element_12909 , data:Element_15285 , data:Element_1899 , data:Element_16410 , data:Element_1773 , data:Element_11462 , data:Element_5385 , data:Element_14731 , data:Element_7653 , data:Element_10431 , data:Element_12825 , data:Element_13223 , data:Element_7695 , data:Element_12867 , data:Element_12741 , data:Element_13265 , data:Element_933 , data:Element_9426 , data:Element_2907 , data:Element_9300 , data:Element_4125 , data:Element_12783 , data:Element_6519 , data:Element_9468 , data:Element_2949 , data:Element_9342 , data:Element_4167 , data:Element_2823 , data:Element_6435 , data:Element_12126 , data:Element_14311 , data:Element_12061 , data:Element_14521 , data:Element_11851 , data:Element_12019 , data:Element_15075 , data:Element_9258 , data:Element_8796 , data:Element_14353 , data:Element_14949 , data:Element_14395 , data:Element_12405 , data:Element_8601 , data:Element_8643 , data:Element_9006 , data:Element_9174 , data:Element_14907 , data:Element_9384 , data:Element_14101 , data:Element_12447 , data:Element_9132 , data:Element_11935 , data:Element_12489 , data:Element_14991 , data:Element_14269 , data:Element_12531 , data:Element_14647 , data:Element_8754 , data:Element_12237 , data:Element_11378 , data:Element_14185 , data:Element_8685 , data:Element_14605 , data:Element_8880 , data:Element_14437 , data:Element_9216 , data:Element_14143 , data:Element_9090 , data:Element_14479 , data:Element_12363 , data:Element_14689 , data:Element_11977 , data:Element_8922 , data:Element_15117 , data:Element_9048 , data:Element_15033 , data:Element_11893 , data:Element_12573 , data:Element_8838 , data:Element_14563 , data:Element_8964 , data:Element_14865 , data:Element_12321 , data:Element_14227 , data:Element_15159 , data:Element_891 , data:Element_2865 , data:Element_6477 , data:Element_8238 , data:Element_8112 , data:Element_2781 , data:Element_6393 , data:Element_8154 , data:Element_1605 , data:Element_8196 , data:Element_8070 , data:Element_1647 , data:Element_1521 , data:Element_5259 , data:Element_3915 , data:Element_5133 , data:Element_7527 , data:Element_7401 , data:Element_16252 , data:Element_10251 , data:Element_1689 , data:Element_1563 , data:Element_3957 , data:Element_3831 , data:Element_7569 , data:Element_7443 , data:Element_12615 , data:Element_10293 , data:Element_3999 , data:Element_3873 , data:Element_5091 , data:Element_7485 , data:Element_13085 , data:Element_807 , data:Element_12657 , data:Element_10836 , data:Element_10710 , data:Element_13502 , data:Element_849 , data:Element_12699 , data:Element_10752 , data:Element_13544 , data:Element_765 , data:Element_10794 , data:Element_13586 , data:Element_13460 , data:Element_2655 , data:Element_6267 , data:Element_4923 , data:Element_6141 , data:Element_8028 , data:Element_7275 , data:Element_6015 , data:Element_7806 , data:Element_13376 , data:Element_8307 , data:Element_15621 , data:Element_8559 , data:Element_4671 , data:Element_3579 , data:Element_4755 , data:Element_1269 , data:Element_10626 , data:Element_15686 , data:Element_2487 , data:Element_5721 , data:Element_2403 , data:Element_7107 , data:Element_9972 , data:Element_513 , data:Element_3663 , data:Element_3747 , data:Element_639 , data:Element_9930 , data:Element_6057 , data:Element_3411 , data:Element_8349 , data:Element_1143 , data:Element_10668 , data:Element_2445 , data:Element_7149 , data:Element_8433 , data:Element_3789 , data:Element_3621 , data:Element_2529 , data:Element_6099 , data:Element_1437 , data:Element_7233 , data:Element_4965 , data:Element_7065 , data:Element_1185 , data:Element_13334 , data:Element_3537 , data:Element_7317 , data:Element_10500 , data:Element_2361 , data:Element_8475 , data:Element_6981 , data:Element_459 , data:Element_4881 , data:Element_1479 , data:Element_7191 , data:Element_16331 , data:Element_1353 , data:Element_7023 , data:Element_10167 , data:Element_10209 , data:Element_3453 , data:Element_10584 , data:Element_5973 , data:Element_8391 , data:Element_8517 , data:Element_13418 , data:Element_1101 , data:Element_10542 , data:Element_4797 , data:Element_7359 , data:Element_4713 , data:Element_1227 , data:Element_4839 , data:Element_5847 , data:Element_1395 , data:Element_3495 , data:Element_1311 , data:Element_3705 ;
+        bot:containsZone     data:SpatialZone_16615 , data:SpatialZone_16695 .
+
+data:Element_12279  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgR" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164818" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Task_AsPlanned_Original_Murcia_1
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:00:00"^^xsd:dateTime ;
+        dcterms:identifier        "1" ;
+        dcterms:title             "Beams" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  2
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  2
+                                  ] ;
+        process:addsElement       data:Element_12279 , data:Element_12195 , data:Element_11737 , data:Element_11611 , data:Element_9804 , data:Element_11779 , data:Element_11653 , data:Element_9846 , data:Element_9720 , data:Element_11695 , data:Element_9762 , data:Element_13975 , data:Element_11309 , data:Element_11225 , data:Element_14017 , data:Element_11267 , data:Element_14059 , data:Element_11569 , data:Element_9636 , data:Element_9510 , data:Element_9678 , data:Element_9552 , data:Element_14796 , data:Element_9594 , data:Element_15201 , data:Element_11504 , data:Element_15243 , data:Element_11420 , data:Element_11462 , data:Element_14731 , data:Element_9426 , data:Element_9300 , data:Element_9468 , data:Element_9342 , data:Element_12126 , data:Element_14311 , data:Element_12061 , data:Element_14521 , data:Element_11851 , data:Element_12019 , data:Element_15075 , data:Element_9258 , data:Element_8796 , data:Element_14353 , data:Element_14949 , data:Element_14395 , data:Element_12405 , data:Element_8601 , data:Element_8643 , data:Element_9006 , data:Element_9174 , data:Element_14907 , data:Element_9384 , data:Element_14101 , data:Element_12447 , data:Element_9132 , data:Element_11935 , data:Element_12489 , data:Element_14991 , data:Element_14269 , data:Element_12531 , data:Element_14647 , data:Element_8754 , data:Element_12237 , data:Element_11378 , data:Element_14185 , data:Element_8685 , data:Element_14605 , data:Element_8880 , data:Element_14437 , data:Element_9216 , data:Element_14143 , data:Element_9090 , data:Element_14479 , data:Element_12363 , data:Element_14689 , data:Element_11977 , data:Element_8922 , data:Element_15117 , data:Element_9048 , data:Element_15033 , data:Element_11893 , data:Element_12573 , data:Element_8838 , data:Element_14563 , data:Element_8964 , data:Element_14865 , data:Element_12321 , data:Element_14227 , data:Element_15159 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2023-10-31T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-09-06T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      93 ;
+        process:workQuantityUnit  "units" .
+
+data:SpatialZone_16615
+        a                    bot:Zone , facility:ConstructionZone ;
+        dcterms:identifier   "097LF18dP6fega1v$E585W" ;
+        dcterms:title        "Construction Zone - Beams" ;
+        facility:belongsTo   data:BuildingStorey_154 ;
+        bot:containsElement  data:Element_12279 , data:Element_12195 , data:Element_11737 , data:Element_11611 , data:Element_9804 , data:Element_11779 , data:Element_11653 , data:Element_9846 , data:Element_9720 , data:Element_11695 , data:Element_9762 , data:Element_13975 , data:Element_11309 , data:Element_11225 , data:Element_14017 , data:Element_11267 , data:Element_14059 , data:Element_11569 , data:Element_9636 , data:Element_9510 , data:Element_9678 , data:Element_9552 , data:Element_14796 , data:Element_9594 , data:Element_15201 , data:Element_11504 , data:Element_15243 , data:Element_11420 , data:Element_11462 , data:Element_14731 , data:Element_9426 , data:Element_9300 , data:Element_9468 , data:Element_9342 , data:Element_12126 , data:Element_14311 , data:Element_12061 , data:Element_14521 , data:Element_11851 , data:Element_12019 , data:Element_15075 , data:Element_9258 , data:Element_8796 , data:Element_14353 , data:Element_14949 , data:Element_14395 , data:Element_12405 , data:Element_8601 , data:Element_8643 , data:Element_9006 , data:Element_9174 , data:Element_14907 , data:Element_9384 , data:Element_14101 , data:Element_12447 , data:Element_9132 , data:Element_11935 , data:Element_12489 , data:Element_14991 , data:Element_14269 , data:Element_12531 , data:Element_14647 , data:Element_8754 , data:Element_12237 , data:Element_11378 , data:Element_14185 , data:Element_8685 , data:Element_14605 , data:Element_8880 , data:Element_14437 , data:Element_9216 , data:Element_14143 , data:Element_9090 , data:Element_14479 , data:Element_12363 , data:Element_14689 , data:Element_11977 , data:Element_8922 , data:Element_15117 , data:Element_9048 , data:Element_15033 , data:Element_11893 , data:Element_12573 , data:Element_8838 , data:Element_14563 , data:Element_8964 , data:Element_14865 , data:Element_12321 , data:Element_14227 , data:Element_15159 .
+
+data:Element_15759  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "0vE4tJV0D5CeAu1F1NsXjd" ;
+        dcterms:title                  "Floor:LosaHA0.80m:2232140" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_13_30" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.BASESLAB" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_2 .
+
+data:Task_AsPlanned_Original_Murcia_2
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T09:48:00"^^xsd:dateTime ;
+        dcterms:identifier        "2" ;
+        dcterms:title             "Lower Slab" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  1
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  1
+                                  ] ;
+        process:addsElement       data:Element_15759 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_1 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2023-11-28T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-11-01T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_13154  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcQ" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165587" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_12195  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fg3" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164810" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Task_AsPlanned_Original_Murcia_4
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:06:00"^^xsd:dateTime ;
+        dcterms:identifier        "4" ;
+        dcterms:title             "Platform IZQ F01" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        process:addsElement       data:Element_16169 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_3 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2023-12-12T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-12-06T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_16169  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8Tw" ;
+        dcterms:title                  "Floor:LosaHA1.70m:2232916" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_65_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.FLOOR" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_4 .
+
+data:Task_AsPlanned_Original_Murcia_10
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T09:51:00"^^xsd:dateTime ;
+        dcterms:identifier        "10" ;
+        dcterms:title             "Track Slab DER" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  20
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  20
+                                  ] ;
+        process:addsElement       data:Element_16086 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_9 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2024-06-25T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2024-05-29T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_16086  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8Jt" ;
+        dcterms:title                  "Floor:LosaHA0.33m:2232793" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_88_17" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcTrack.TRACKSLAB" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_10 .
+
+data:Element_11737  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhl" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164774" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11611  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhJ" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164762" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_2235  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$j" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Cierre1m:2055835" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9804  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIm" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159422" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_4629  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLN" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118266" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4503  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLF" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118242" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_11779  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhZ" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164778" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11653  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhN" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164766" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9846  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJC" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159426" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9720  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIu" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159414" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_4545  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLV" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118258" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6939  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGB" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118438" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6813  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGt" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118426" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_11695  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhh" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164770" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9888  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJ8" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159430" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_9762  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIq" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159418" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_4587  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLR" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118262" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4461  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLp" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118238" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13933  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbQ" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165651" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6855  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGp" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Inicio1m:2118430" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13975  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbU" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165655" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_16007  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8Jy" ;
+        dcterms:title                  "Floor:LosaHA0.33m:2232786" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_88_17" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcTrack.TRACKSLAB" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_11 .
+
+data:Task_AsPlanned_Original_Murcia_11
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:08:00"^^xsd:dateTime ;
+        dcterms:identifier        "11" ;
+        dcterms:title             "Track Slab IZQ" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  20
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  20
+                                  ] ;
+        process:addsElement       data:Element_16007 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_10 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2024-07-23T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2024-06-26T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_11309  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKt" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164734" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_6897  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGF" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118434" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6771  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGx" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118422" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13891  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fb6" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165647" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_11225  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fK$" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164726" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_1059  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuz5" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Cierre1m:2055731" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3201  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_f" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055903" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3327  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_T" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055915" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13016  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7ffV" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164886" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_14017  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbI" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165659" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11267  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKp" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164730" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11141  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKd" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164718" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3243  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_L" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Inicio1m:2055907" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3369  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_P" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055919" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_15537  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxY" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165803" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_14059  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbM" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165663" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15411  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxM" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165791" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_5637  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNd" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118346" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5511  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMJ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118334" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_11183  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKx" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164722" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3285  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_H" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055911" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_15579  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxc" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165807" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15845  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8H9" ;
+        dcterms:title                  "Floor:LosaHA0.90m:2232679" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_14_16" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.FLOOR" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_9 .
+
+data:Task_AsPlanned_Original_Murcia_9
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:07:00"^^xsd:dateTime ;
+        dcterms:identifier        "9" ;
+        dcterms:title             "Pre-slab IZQ" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  14
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  14
+                                  ] ;
+        process:addsElement       data:Element_15845 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_8 , data:Task_AsPlanned_Original_Murcia_7 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2024-01-23T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2024-01-10T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_15453  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxg" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165795" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1941  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$n" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055815" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5679  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNZ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118350" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5553  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNl" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118338" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7917  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFK0" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159246" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15495  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxk" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165799" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1983  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$z" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Inicio1m:2055819" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5595  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNh" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Inicio1m:2118342" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_2109  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$X" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055831" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7959  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKS" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159250" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_2025  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$v" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055823" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4419  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLt" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118234" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12951  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7ffR" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164882" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_7875  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFK4" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159242" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_11569  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhV" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164758" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15924  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8IR" ;
+        dcterms:title                  "Floor:LosaHA0.90m:2232757" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_14_16" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.FLOOR" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_8 .
+
+data:Task_AsPlanned_Original_Murcia_8
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T09:50:00"^^xsd:dateTime ;
+        dcterms:identifier        "8" ;
+        dcterms:title             "Pre-slab DER" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  14
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  14
+                                  ] ;
+        process:addsElement       data:Element_15924 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_6 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2024-01-09T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-12-27T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_2067  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$b" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055827" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9636  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIW" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159406" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9510  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIi" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159394" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_13807  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbE" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165639" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6729  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmG$" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118418" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6603  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGh" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Cierre1m:2118406" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9678  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIy" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159410" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9552  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIe" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159398" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_13849  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fb2" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165643" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13723  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcs" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165631" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6645  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGd" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118410" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10901  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKJ" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164698" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_14796  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fak" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165735" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_10973  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKN" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164702" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_9594  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIa" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159402" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_4293  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLx" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Inicio1m:2118230" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13765  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbA" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165635" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6687  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGZ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118414" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6561  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGl" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118402" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_2991  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_z" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Cierre1m:2055883" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10014  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJS" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159442" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_11015  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKh" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164706" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3117  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_X" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055895" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13651  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fco" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165627" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Site_160  a            bot:Site ;
+        dcterms:identifier  "2EzJEtWo19UxxKehuMQcZf" ;
+        dcterms:title       "Default" ;
+        bot:hasBuilding     data:Building_141 .
+
+data:Building_141  a        bot:Building ;
+        dcterms:identifier  "2EzJEtWo19UxxKehuMQcZg" ;
+        dcterms:title       "ESTACI\\X2\\00D3\\X0\\N BARRIOMAR-EL CARMEN" ;
+        bot:hasStorey       data:BuildingStorey_154 .
+
+data:Element_10056  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJO" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159446" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_11057  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKl" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164710" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15201  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fx2" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165771" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15327  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxU" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165783" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3159  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_j" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055899" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1815  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyD" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055803" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3033  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_v" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055887" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_11504  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhR" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164754" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_5427  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMR" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118326" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5301  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmM7" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118314" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10098  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJK" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159450" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_11099  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKZ" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164714" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15243  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fx6" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165775" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15369  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxI" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165787" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1857  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuy9" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055807" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3075  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_b" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055891" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_11420  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhF" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164742" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_1731  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuy5" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055795" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5469  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMN" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118330" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5343  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmM3" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118318" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7737  a                   bot:Element ;
+        dcterms:identifier             "1qpPynnsfEHRLWXP9Y0to6" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Cierre1m:2151776" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7611  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHB" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Cierre1m:2118502" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12909  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7ff7" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164878" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15285  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxQ" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165779" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1899  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$r" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055811" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Task_AsPlanned_Original_Murcia_6
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:09:00"^^xsd:dateTime ;
+        dcterms:identifier        "6" ;
+        dcterms:title             "Platform DER F02" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        process:addsElement       data:Element_16410 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_3 , data:Task_AsPlanned_Original_Murcia_5 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2023-12-26T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-12-20T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_16410  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8OC" ;
+        dcterms:title                  "Floor:LosaHA0.55m:2233122" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_65_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.FLOOR" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_6 .
+
+data:Element_1773  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuy1" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055799" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_11462  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fh3" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164746" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_5385  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMV" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118322" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_14731  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fag" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165731" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_7653  a                   bot:Element ;
+        dcterms:identifier             "1qpPynnsfEHRLWXP9Y0tok" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2151752" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10431  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fLx" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164658" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_12825  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7ffF" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164870" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13223  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcU" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165591" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_7695  a                   bot:Element ;
+        dcterms:identifier             "1qpPynnsfEHRLWXP9Y0tog" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2151756" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12867  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7ff3" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164874" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_12741  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgt" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164862" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13265  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcI" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165595" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_933  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzP" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055727" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9426  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIK" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159386" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_2907  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_r" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055875" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9300  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFI0" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159374" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_4125  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLZ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118222" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12783  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7ffB" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164866" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6519  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNJ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118398" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9468  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIG" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159390" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_2949  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_n" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055879" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9342  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIS" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159378" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_4167  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmL$" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118226" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_2823  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$D" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055867" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6435  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNR" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118390" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12126  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgF" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164806" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14311  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbo" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165691" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12061  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgB" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164802" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14521  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fa6" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165711" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11851  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhd" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164782" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12019  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fht" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164798" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15075  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fas" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165759" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9258  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFI4" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159370" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8796  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLK" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159322" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14353  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbs" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165695" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14949  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faw" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165747" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14395  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faA" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165699" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12405  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgN" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164830" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8601  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFL4" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159306" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8643  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFL0" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159310" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9006  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLy" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159346" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9174  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIC" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159362" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14907  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fac" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165743" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9384  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFIO" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159382" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14101  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbg" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165667" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12447  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgh" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164834" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9132  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLm" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159358" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11935  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fh$" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164790" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12489  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgl" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164838" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14991  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fa_" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165751" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14269  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fb_" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165687" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12531  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgZ" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164842" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14647  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faI" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165723" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8754  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLO" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159318" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12237  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fg7" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164814" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11378  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhB" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164738" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14185  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbY" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165675" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8685  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLS" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159314" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14605  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faU" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165719" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8880  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLi" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159330" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14437  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faE" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165703" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9216  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFI8" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159366" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14143  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbk" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165671" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9090  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLq" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159354" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14479  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fa2" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165707" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12363  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgJ" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164826" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14689  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faM" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165727" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11977  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhp" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164794" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8922  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLa" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159338" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15117  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxA" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165763" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_9048  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLu" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159350" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15033  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fao" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165755" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_11893  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fhx" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164786" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12573  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgd" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164846" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8838  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLG" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159326" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14563  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faQ" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165715" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_8964  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLW" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159342" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14865  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7faY" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165739" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_12321  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgV" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164822" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_14227  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fbw" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165683" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_15159  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxE" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165767" ;
+        facility:belongsTo             data:BuildingStorey_154 , data:SpatialZone_16615 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_1 .
+
+data:Element_891  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzT" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055723" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_2865  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$9" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055871" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6477  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNN" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118394" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8238  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKa" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159274" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_8112  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKG" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159262" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_2781  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$1" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055863" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6393  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNV" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118386" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8154  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKi" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159266" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1605  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyH" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055783" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8196  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKe" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159270" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_8070  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKK" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159258" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1647  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyT" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Cierre1m:2055787" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1521  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyf" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055775" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5259  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMB" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Cierre1m:2118310" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3915  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvL" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055971" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5133  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMF" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118306" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7527  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHp" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118494" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7401  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmH$" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118482" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Task_AsPlanned_Original_Murcia_7
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T09:50:00"^^xsd:dateTime ;
+        dcterms:identifier        "7" ;
+        dcterms:title             "Platform IZQ F02" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        process:addsElement       data:Element_16252 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_4 , data:Task_AsPlanned_Original_Murcia_6 , data:Task_AsPlanned_Original_Murcia_5 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2024-01-02T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-12-27T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:Element_16252  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8Uv" ;
+        dcterms:title                  "Floor:LosaHA0.55m:2232983" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_65_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.FLOOR" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_7 .
+
+data:Element_10251  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJe" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159462" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1689  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyP" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055791" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1563  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyL" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055779" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3957  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvH" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055975" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3831  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvj" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055963" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7569  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHF" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118498" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7443  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHx" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118486" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12615  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgx" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164850" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_10293  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJa" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159466" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3999  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvT" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Cierre1m:2055979" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3873  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvf" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055967" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5091  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMp" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118302" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7485  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHt" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118490" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13085  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fc6" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165583" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_807  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzL" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055715" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12657  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fg$" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164854" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_10836  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKV" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164694" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_10710  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fK3" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164682" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13502  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcc" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165615" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_849  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzH" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055719" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_12699  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fgp" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164858" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_10752  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fK7" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164686" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13544  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcw" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165619" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_765  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzf" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055711" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10794  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKR" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164690" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13586  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fc_" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165623" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13460  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcY" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165611" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_2655  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$5" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Inicio1m:2055859" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6267  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmN3" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Inicio1m:2118382" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4923  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMx" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118294" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6141  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmN7" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118378" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8028  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKO" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159254" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_7275  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHh" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118470" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6015  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNp" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118366" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7806  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFK8" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159238" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13376  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcg" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165603" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_8307  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKW" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159278" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15621  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fxw" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165811" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_8559  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFL8" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159302" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_4671  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmLJ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118270" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3579  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvr" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055939" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4755  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMh" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Inicio1m:2118278" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1269  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyn" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055751" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10626  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKB" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164674" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_15686  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fx_" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165815" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_2487  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$T" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055851" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5721  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmN$" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118354" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_2403  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$L" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055843" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7107  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGR" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Cierre1m:2118454" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9972  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJ0" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159438" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_513  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzX" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055703" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3663  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvz" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055947" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3747  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvb" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Inicio1m:2055955" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_639  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzj" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Inicio1m:2055707" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_9930  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJ4" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159434" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6057  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNF" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118370" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3411  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_5" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055923" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8349  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKy" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159282" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1143  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzD" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055739" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10668  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fKF" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164678" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:SpatialZone_16695
+        a                   bot:Zone , facility:ConstructionZone ;
+        dcterms:identifier  "097LF18dP6fega1v$E58RP" ;
+        dcterms:title       "Construction Zone - Slabs" ;
+        facility:belongsTo  data:BuildingStorey_154 .
+
+data:Element_2445  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$H" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055847" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7149  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGN" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118458" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8433  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKq" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159290" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3789  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvX" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055959" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3621  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvn" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055943" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_2529  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$P" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055855" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_6099  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNB" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118374" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1437  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyX" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055767" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7233  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHl" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118466" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4965  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMt" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118298" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7065  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGV" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118450" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1185  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuz9" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055743" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_13334  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fcM" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165599" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3537  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_9" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055935" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7317  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHd" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118474" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10500  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fL$" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164662" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_2361  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu$f" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055839" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8475  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKm" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159294" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_6981  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmG7" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118442" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_459  a                    bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuzb" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055699" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4881  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmM$" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118290" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1479  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyj" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055771" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7191  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmGJ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118462" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_16331  a                  bot:Element , beo:Wall ;
+        dcterms:identifier             "3VHS$mesL7aOlXXSuMi8Oo" ;
+        dcterms:title                  "Floor:LosaHA1.70m:2233116" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_65_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcSlab.FLOOR" ;
+        process:isAddedByTask          data:Task_AsPlanned_Original_Murcia_3 .
+
+data:Element_1353  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyv" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055759" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7023  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmG3" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118446" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10167  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJG" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159454" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_10209  a                  bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFJi" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159458" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_3453  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_1" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055927" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10584  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fLt" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164670" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_5973  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNt" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118362" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_8391  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFKu" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159286" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_8517  a                   bot:Element ;
+        dcterms:identifier             "0wxk49yYzBegedSNG1IFLC" ;
+        dcterms:title                  "GMA_EstampidorRectangular:Estampidor1x1m:2159298" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_13418  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fck" ;
+        dcterms:title                  "GMA_VigaAtadoDerecha:VigaAtado1x1m:2165607" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_1101  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuz1" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055735" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_10542  a                  bot:Element ;
+        dcterms:identifier             "29tg$59N928B9WJAdB7fLp" ;
+        dcterms:title                  "GMA_VigaAtadoIzquierda:VigaAtado1x1m:2164666" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_85_08_15_01" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcBeam.BEAM" .
+
+data:Element_4797  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMd" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118282" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_7359  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmHZ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Inicio1m:2118478" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4713  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMl" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance+PK1m:2118274" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1227  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyr" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055747" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_4839  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmMZ" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Avance-PK1m:2118286" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_5847  a                   bot:Element ;
+        dcterms:identifier             "1l38anvvP9989R7D2hPmNx" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeIzquierda:Cierre1m:2118358" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1395  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyb" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance-PK1m:2055763" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3495  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRu_D" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Cierre1m:2055931" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_1311  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuyz" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Inicio1m:2055755" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Element_3705  a                   bot:Element ;
+        dcterms:identifier             "06cuJv7NTDg95clFVdRuvv" ;
+        dcterms:title                  "GMA_BatacheAdaptativo2PuntosEjeDerecha:Avance+PK1m:2055951" ;
+        facility:belongsTo             data:BuildingStorey_154 ;
+        facility:codeUniclassElement   "Pr_20_93_71_18" ;
+        facility:codeUniclassMaterial  "Ma_40_19" ;
+        facility:type                  "IfcWall.SHEAR" .
+
+data:Task_AsPlanned_Original_Murcia_3
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T09:50:00"^^xsd:dateTime ;
+        dcterms:identifier        "3" ;
+        dcterms:title             "Platform DER F01" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        process:addsElement       data:Element_16331 ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_2 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2023-12-05T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-11-29T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
+
+data:AsPlanned_Original_Process_Murcia
+        a                   process:Process ;
+        dcterms:creator     "DT Runtime" ;
+        dcterms:identifier  "AsPlanned_Original_Schedule" ;
+        dcterms:title       "AsPlanned Original Schedule" ;
+        process:hasTask     data:Task_AsPlanned_Original_Murcia_1 , data:Task_AsPlanned_Original_Murcia_2 , data:Task_AsPlanned_Original_Murcia_4 , data:Task_AsPlanned_Original_Murcia_10 , data:Task_AsPlanned_Original_Murcia_11 , data:Task_AsPlanned_Original_Murcia_9 , data:Task_AsPlanned_Original_Murcia_8 , data:Task_AsPlanned_Original_Murcia_6 , data:Task_AsPlanned_Original_Murcia_7 , data:Task_AsPlanned_Original_Murcia_3 , data:Task_AsPlanned_Original_Murcia_50 , data:Task_AsPlanned_Original_Murcia_5 ;
+        process:hasType     "AsPlannedOriginal" .
+
+data:Task_AsPlanned_Original_Murcia_50
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:00:00"^^xsd:dateTime ;
+        dcterms:identifier        "50" ;
+        dcterms:title             "Schedule" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  150
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  150
+                                  ] ;
+        process:hasStatus         "Active" ;
+        process:hasSubTask        data:Task_AsPlanned_Original_Murcia_1 , data:Task_AsPlanned_Original_Murcia_2 , data:Task_AsPlanned_Original_Murcia_4 , data:Task_AsPlanned_Original_Murcia_10 , data:Task_AsPlanned_Original_Murcia_11 , data:Task_AsPlanned_Original_Murcia_9 , data:Task_AsPlanned_Original_Murcia_8 , data:Task_AsPlanned_Original_Murcia_6 , data:Task_AsPlanned_Original_Murcia_7 , data:Task_AsPlanned_Original_Murcia_3 , data:Task_AsPlanned_Original_Murcia_5 ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2024-07-23T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-09-06T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      0 ;
+        process:workQuantityUnit  "units" .
+
+data:Task_AsPlanned_Original_Murcia_5
+        a                         process:Task ;
+        dcterms:created           "2023-06-09T10:05:00"^^xsd:dateTime ;
+        dcterms:identifier        "5" ;
+        dcterms:title             "Central Drainage" ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        time:hasDuration          [ a          time:DurationDescription ;
+                                    time:days  7
+                                  ] ;
+        process:hasParentTask     data:Task_AsPlanned_Original_Murcia_50 ;
+        process:hasPredecessor    data:Task_AsPlanned_Original_Murcia_4 ;
+        process:hasStatus         "Active" ;
+        process:hasType           "NORMAL_TASK" ;
+        process:isPartOfProcess   data:AsPlanned_Original_Process_Murcia ;
+        process:plannedEndDate    "2023-12-19T05:00:00"^^xsd:dateTime ;
+        process:plannedStartDate  "2023-12-13T08:00:00"^^xsd:dateTime ;
+        process:workQuantity      1 ;
+        process:workQuantityUnit  "units" .
