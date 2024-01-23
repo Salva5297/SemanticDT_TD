@@ -1,317 +1,339 @@
 {
-    "@context":[
-       "https://www.w3.org/2019/wot/td/v1",
-         {
-            "element":"https://data.cogito.iot.linkeddata.es/resources/element/",
-            "sdt":"https://data.cogito.iot.linkeddata.es/resources/sdt/",
-            "dt_pe":"https://data.cogito.iot.linkeddata.es/resources/pe/",
-            "dt_ve":"https://data.cogito.iot.linkeddata.es/resources/ve/",
-            "dt_dd":"https://data.cogito.iot.linkeddata.es/resources/dd/",
-            "dt_cn":"https://data.cogito.iot.linkeddata.es/resources/cn/"
-         },
-       "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/dt.td.context.jsonld",
-       "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld"
-       
-    ],
-    "securityDefinitions":{
-       "nosec_sc":{
-          "scheme":"nosec"
-       }
+  "@context": [
+    "https://www.w3.org/2019/wot/td/v1",
+    {
+      "element": "https://data.cogito.iot.linkeddata.es/resources/element/",
+      "sdt": "https://data.cogito.iot.linkeddata.es/resources/sdt/",
+      "dt_pe": "https://data.cogito.iot.linkeddata.es/resources/pe/",
+      "dt_ve": "https://data.cogito.iot.linkeddata.es/resources/ve/",
+      "dt_dd": "https://data.cogito.iot.linkeddata.es/resources/dd/",
+      "dt_cn": "https://data.cogito.iot.linkeddata.es/resources/cn/"
     },
-    "security":[
-       "nosec_sc"
-    ],
-    "id":"sdt:01U2Ox69TF78CjGAzXHALN",
-    "@type":"Semantic_Digital_Twin_Instance",
-    "title":"Element 160035",
-    "description":"Element 160035 from project b3fe643d-f9f2-4e14-bf3c-95343d63c850",
-    "properties":{
-      "get_rdf":{
-         "forms":[
+    "https://raw.githubusercontent.com/Salva5297/SemanticDT_TD/main/context/dt.td.context.jsonld",
+    "https://w3c.github.io/wot-discovery/context/discovery-core.jsonld"
+  ],
+  "securityDefinitions": {
+    "nosec_sc": {
+      "scheme": "nosec"
+    }
+  },
+  "security": [
+    "nosec_sc"
+  ],
+  "id": "sdt:01U2Ox69TF78CjGAzXHALN",
+  "type": "Semantic_Digital_Twin_Instance",
+  "title": "Element 160035",
+  "description": "Element 160035 from project b3fe643d-f9f2-4e14-bf3c-95343d63c850",
+  "pe": [
+    {
+      "id": "dt_pe:01U2Ox69TF78CjGAzXHALN;1",
+      "type": "Physical_Entity",
+      "title": "Element 160035",
+      "description": "Physical Entity Element 160035",
+      "components": [
+        {
+          "id": "01U2Ox69TF78CjGAzXHALN",
+          "type": "IfcSlab.FLOOR",
+          "title": "M_Pile-Steel Pipe:400mm Diameter:147737",
+          "description": "A slab is a component of the construction that normally encloses a space vertically. The slab may provide the lower support (floor) or upper construction (roof slab) in any space in a building.",
+          "href": "element:160035"
+        }
+      ]
+    }
+  ],
+  "ve": [
+    {
+      "id": "dt_ve01U2Ox69TF78CjGAzXHALN;1",
+      "type": "Virtual_Entity",
+      "title": "Virtual Entity",
+      "description": "Virtual Entity of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850",
+      "models": [
+        {
+          "type": "Ontology_Model",
+          "title": "Building Element Ontology",
+          "description": "The Building Element Ontology provides an ontology based on the IfcBuildingElement subtree in the IFC specification, containing a taxonomy of classes that allow to define common building elements.",
+          "formats": [
             {
-               "href":"https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/data",
-               "type":"text/turtle"
-            }
-         ]
-      },
-      "validate_rdf":{
-         "forms":[
+              "type": "Format",
+              "title": "JSON-LD",
+              "description": "JSON-LD format.",
+              "href": "https://pi.pauwel.be/voc/buildingelement/ontology.json",
+              "extension": "json"
+            },
             {
-               "href":"https://data.cogito.iot.linkeddata.es/validation/api/validate_rdf/data",
-               "type":"text/turtle"
+              "type": "Format",
+              "title": "RDF/XML",
+              "description": "RDF/XML Format.",
+              "href": "https://pi.pauwel.be/voc/buildingelement/ontology.xml",
+              "extension": "xml"
+            },
+            {
+              "type": "Format",
+              "title": "N-Triples",
+              "description": "N-Triples Format.",
+              "href": "https://pi.pauwel.be/voc/buildingelement/ontology.nt",
+              "extension": "nt"
+            },
+            {
+              "type": "Format",
+              "title": "Turtle",
+              "description": "Turtle Format.",
+              "href": "https://pi.pauwel.be/voc/buildingelement/ontology.ttl",
+              "extension": "ttl"
             }
-         ]
+          ]
+        },
+        {
+          "type": "Ontology_Model",
+          "title": "Building Topology Ontology",
+          "description": "The Building Topology Ontology (BOT) is a minimal ontology for describing the core topological concepts of a building.",
+          "formats": [
+            {
+              "type": "Format",
+              "title": "Turtle",
+              "description": "Turtle Format.",
+              "href": "http://www.w3id.org/bot/bot.ttl",
+              "extension": "ttl"
+            }
+          ]
+        },
+        {
+          "type": "Ontology_Model",
+          "title": "Properties' Ontology",
+          "description": "Properties' ontology (PROPS) describes the modeling of building-related properties with RDF.",
+          "formats": [
+            {
+              "type": "Format",
+              "title": "Turtle",
+              "description": "Turtle Format.",
+              "href": "https://raw.githubusercontent.com/maximelefrancois86/props/master/IFC4-output.ttl",
+              "extension": "ttl"
+            }
+          ]
+        },
+        {
+          "type": "SHACL_Shape_Model",
+          "title": "SHACL Shapes",
+          "description": "SHACL Shapes used to validate the data of the Digital Twin.",
+          "formats": [
+            {
+              "type": "Format",
+              "title": "Turtle",
+              "description": "Turtle Format.",
+              "href": "https://raw.githubusercontent.com/oeg-upm/cogito_data_repository/main/demo_example_SHACL/shape.ttl",
+              "extension": "ttl"
+            }
+          ]
+        },
+        {
+          "type": "Mapping_Model",
+          "title": "Mapping",
+          "description": "Mappings used to generate the Digital Twin RDF data.",
+          "formats": [
+            {
+              "type": "Format",
+              "title": "Freemarker Mapping",
+              "description": "Freemarker Format.",
+              "href": "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/mapping",
+              "extension": "ftl"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dd": [
+    {
+      "id": "dt_dd:01U2Ox69TF78CjGAzXHALN;1",
+      "type": "Digital_Twin_Data",
+      "title": "Digital Twin Data",
+      "description": "Digital Twin Data of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "data": [
+        {
+          "type": "dcat:Dataset",
+          "title": "Knowledge Graph",
+          "description": "Knowledge Graph of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+          "dcat:distribution": {
+            "dcat:accessURL": "https://data.cogito.iot.linkeddata.es/beo_bot_ifc",
+            "dcat:mediaType": "application/sparql-results+json",
+            "dcat:downloadURL": "https://triplestore.cogito.iot.linkeddata.es/rest/explore/graph?uri=https%3A%2F%2Fdata.cogito.iot.linkeddata.es%2Fbeo_bot_ifc&role=context&inference=all&bnodes=true&sameAs=true",
+            "dcat:accessService": {
+              "dcat:endpointURL": "https://triplestore.cogito.iot.linkeddata.es/repositories/demo",
+              "dcat:endpointDescription": "SPARQL endpoint of the Triplestore where the Knowledge Graph is stored."
+            }
+          }
+        },
+        {
+          "type": "dcat:Dataset",
+          "title": "IFC File",
+          "description": "IFC File of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+          "dcat:distribution": {
+            "dcat:downloadURL": "https://dtp.cogito-project.com/file/508bfae6-dada-46d1-8d40-beb18c1619b8/download",
+            "dcat:mediaType": "application/octet-stream",
+            "dcterms:format": "IFC"
+          }
+        }
+      ]
+    }
+  ],
+  "ss": [
+    {
+      "id": "dt_ss:01U2Ox69TF78CjGAzXHALN;1",
+      "type": "Digital_Twin_Service",
+      "title": "Digital Twin Service RDF validator",
+      "description": "Digital Twin Service RDF validator of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "interaction_affordances": {
+        "properties": {
+          "validate_rdf": {
+            "forms": [
+              {
+                "href": "https://data.cogito.iot.linkeddata.es/validation/api/validate_rdf/data",
+                "type": "text/turtle"
+              }
+            ]
+          }
+        },
+        "actions": {
+          "register_shacl_model": {
+            "forms": [
+              {
+                "href": "https://data.cogito.iot.linkeddata.es/validation/api/rdf_shacl/mapping",
+                "type": "application/octet-stream"
+              }
+            ]
+          }
+        },
+        "events": {},
+        "links": []
       }
     },
-    "actions":{
-      "register_mapping" : {
-         "forms" : [
-            {
-               "href" : "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/mapping",
-               "type" : "application/octet-stream"
-            }
-         ]
-      },
-      "register_shacl_model" : {
-         "forms" : [
-            {
-               "href" : "https://data.cogito.iot.linkeddata.es/validation/api/rdf_shacl/mapping",
-               "type" : "application/octet-stream"
-            }
-         ]
+    {
+      "id": "dt_cn:01U2Ox69TF78CjGAzXHALN;2",
+      "type": "Digital_Twin_Service",
+      "title": "Digital Twin Service RDF translator",
+      "description": "Digital Twin Service RDF translator of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "interaction_affordances": {
+        "properties": {
+          "get_rdf": {
+            "forms": [
+              {
+                "href": "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/data",
+                "type": "text/turtle"
+              }
+            ]
+          }
+        },
+        "actions": {
+          "register_mapping": {
+            "forms": [
+              {
+                "href": "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/mapping",
+                "type": "application/octet-stream"
+              }
+            ]
+          }
+        },
+        "events": {},
+        "links": []
       }
+    }
+  ],
+  "cn": [
+    {
+      "id": "dt_cn:01U2Ox69TF78CjGAzXHALN;1",
+      "type": "Digital_Twin_Connection",
+      "title": "Digital Twin Connection 1",
+      "description": "Digital Twin Connection 1 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "connections": [
+        {
+          "type": "Digital_Twin_Service",
+          "title": "Helio",
+          "description": "Materialization service used to generate RDF data.",
+          "href": "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/data",
+          "provider": "false",
+          "internal": "true"
+        },
+        {
+          "type": "dcat:Dataset",
+          "title": "IFC File",
+          "description": "IFC File of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+          "href": "https://dtp.cogito-project.com/file/508bfae6-dada-46d1-8d40-beb18c1619b8/download",
+          "provider": "true",
+          "internal": "false"
+        }
+      ]
     },
-    "events":{},
-    "links":[],
-    "pe" : [
+    {
+      "id": "dt_cn:01U2Ox69TF78CjGAzXHALN;2",
+      "type": "Digital_Twin_Connection",
+      "title": "Digital Twin Connection 2",
+      "description": "Digital Twin Connection 2 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "connections": [
         {
-            "id" : "dt_pe:01U2Ox69TF78CjGAzXHALN;1",
-            "@type" : "Physical_Entity",
-            "title" : "Element 160035",
-            "description" : "Physical Entity Element 160035",
-            "components" : [
-                {
-                    "id" : "01U2Ox69TF78CjGAzXHALN",
-                    "@type" : "IfcSlab.FLOOR",
-                    "title" : "M_Pile-Steel Pipe:400mm Diameter:147737",
-                    "description" : "A slab is a component of the construction that normally encloses a space vertically. The slab may provide the lower support (floor) or upper construction (roof slab) in any space in a building.",
-                    "href" : "element:160035"
-                 }
-            ]
+          "type": "Digital_Twin_Service",
+          "title": "Helio",
+          "description": "Materialization service used to generate RDF data.",
+          "href": "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/data",
+          "provider": "false",
+          "internal": "true"
+        },
+        {
+          "type": "Mapping_Model",
+          "title": "Mapping",
+          "description": "Mappings used to generate the Digital Twin RDF data.",
+          "href": "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/mapping",
+          "provider": "true",
+          "internal": "true"
         }
-    ],
-    "ve" : [
+      ]
+    },
+    {
+      "id": "dt_cn:01U2Ox69TF78CjGAzXHALN;3",
+      "type": "Digital_Twin_Connection",
+      "title": "Digital Twin Connection 3",
+      "description": "Digital Twin Connection 3 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "connections": [
         {
-            "@id" : "dt_ve01U2Ox69TF78CjGAzXHALN;1",
-            "@type" : "Virtual_Entity",
-            "title" : "Virtual Entity",
-            "description" : "Virtual Entity of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850",
-            "models" : [
-                {
-                    "@type" : "Ontology_Model",
-                    "title" : "Building Element Ontology",
-                    "description" : "The Building Element Ontology provides an ontology based on the IfcBuildingElement subtree in the IFC specification, containing a taxonomy of classes that allow to define common building elements.",
-                    "formats" : [
-                        {
-                            "@type" : "Format",
-                            "title" : "JSON-LD",
-                            "description" : "JSON-LD format.",
-                            "href" : "https://pi.pauwel.be/voc/buildingelement/ontology.json",
-                            "extension" : "json"
-                        },
-                        {
-                           "@type" : "Format",
-                           "title" : "RDF/XML",
-                           "description" : "RDF/XML Format.",
-                           "href" : "https://pi.pauwel.be/voc/buildingelement/ontology.xml",
-                           "extension" : "xml"
-                        },
-                        {
-                           "@type" : "Format",
-                           "title" : "N-Triples",
-                           "description" : "N-Triples Format.",
-                           "href" : "https://pi.pauwel.be/voc/buildingelement/ontology.nt",
-                           "extension" : "nt"
-                        },
-                        {
-                           "@type" : "Format",
-                           "title" : "Turtle",
-                           "description" : "Turtle Format.",
-                           "href" : "https://pi.pauwel.be/voc/buildingelement/ontology.ttl",
-                           "extension" : "ttl"
-                        }
-                    ]
-               },
-               {
-                  "@type" : "Ontology_Model",
-                  "title" : "Building Topology Ontology",
-                  "description" : "The Building Topology Ontology (BOT) is a minimal ontology for describing the core topological concepts of a building.",
-                  "formats" : [
-                        {
-                           "@type" : "Format",
-                           "title" : "Turtle",
-                           "description" : "Turtle Format.",
-                           "href" : "http://www.w3id.org/bot/bot.ttl",
-                           "extension" : "ttl"
-                        }
-                  ]
-               },
-               {
-                  "@type" : "Ontology_Model",
-                  "title" : "Properties' Ontology",
-                  "description" : "Properties' ontology (PROPS) describes the modeling of building-related properties with RDF.",
-                  "formats" : [
-                        {
-                           "@type" : "Format",
-                           "title" : "Turtle",
-                           "description" : "Turtle Format.",
-                           "href" : "https://raw.githubusercontent.com/maximelefrancois86/props/master/IFC4-output.ttl",
-                           "extension" : "ttl"
-                        }
-                  ]
-               },
-               {
-                  "@type" : "SHACL_Shape_Model",
-                  "title" : "SHACL Shapes",
-                  "description" : "SHACL Shapes used to validate the data of the Digital Twin.",
-                  "formats" : [
-                     {
-                        "@type" : "Format",
-                        "title" : "Turtle",
-                        "description" : "Turtle Format.",
-                        "href" : "https://raw.githubusercontent.com/oeg-upm/cogito_data_repository/main/demo_example_SHACL/shape.ttl",
-                        "extension" : "ttl"
-                     }
-                  ]
-               },
-               {
-                  "@type" : "Mapping_Model",
-                  "title" : "Mapping",
-                  "description" : "Mappings used to generate the Digital Twin RDF data.",
-                  "formats" : [
-                     {
-                        "@type" : "Format",
-                        "title" : "Freemarker Mapping",
-                        "description" : "Freemarker Format.",
-                        "href" : "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/mapping",
-                        "extension" : "ftl"
-                     }
-                  ]
-               }
-            ]
+          "type": "dcat:Dataset",
+          "title": "Knowledge Graph",
+          "description": "Knowledge Graph of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+          "href": "https://data.cogito.iot.linkeddata.es/beo_bot_ifc",
+          "provider": "true",
+          "internal": "true"
+        },
+        {
+          "type": "Digital_Twin_Service",
+          "title": "Helio Validation",
+          "description": "Validation service used to validate RDF data.",
+          "href": "https://data.cogito.iot.linkeddata.es/validation/api/validate_rdf/data",
+          "provider": "false",
+          "internal": "true"
         }
-    ],
-    "dd" : [
+      ]
+    },
+    {
+      "id": "dt_cn:01U2Ox69TF78CjGAzXHALN;4",
+      "type": "Digital_Twin_Connection",
+      "title": "Digital Twin Connection 4",
+      "description": "Digital Twin Connection 4 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
+      "connections": [
         {
-            "@id" : "dt_dd:01U2Ox69TF78CjGAzXHALN;1",
-            "@type" : "Digital_Twin_Data",
-            "title" : "Digital Twin Data",
-            "description" : "Digital Twin Data of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-            "data" : [
-               {
-                  "@type" : "dcat:Dataset",
-                  "title" : "Knowledge Graph",
-                  "description" : "Knowledge Graph of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-                  "dcat:distribution" : {
-                     "dcat:accessURL" : "https://data.cogito.iot.linkeddata.es/beo_bot_ifc",
-                     "dcat:mediaType" : "application/sparql-results+json",
-                     "dcat:downloadURL" : "https://triplestore.cogito.iot.linkeddata.es/rest/explore/graph?uri=https%3A%2F%2Fdata.cogito.iot.linkeddata.es%2Fbeo_bot_ifc&role=context&inference=all&bnodes=true&sameAs=true",
-                     "dcat:accessService" : {
-                        "dcat:endpointURL" : "https://triplestore.cogito.iot.linkeddata.es/repositories/demo",
-                        "dcat:endpointDescription" : "SPARQL endpoint of the Triplestore where the Knowledge Graph is stored."
-                     }
-                     
-                  }
-               },
-               {
-                  "@type" : "dcat:Dataset",
-                  "title" : "IFC File",
-                  "description" : "IFC File of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-                  "dcat:distribution" : {
-                     "dcat:downloadURL" : "https://dtp.cogito-project.com/file/508bfae6-dada-46d1-8d40-beb18c1619b8/download",
-                     "dcat:mediaType" : "application/octet-stream",
-                     "dcterms:format" : "IFC"
-                  }
-               }
-            ]
-         }
-    ],
-    "cn" : [
+          "type": "SHACL_Shape_Model",
+          "title": "SHACL Shapes",
+          "description": "SHACL Shapes used to validate the data of the Digital Twin.",
+          "href": "https://raw.githubusercontent.com/oeg-upm/cogito_data_repository/main/demo_example_SHACL/shape.ttl",
+          "provider": "true",
+          "internal": "true"
+        },
         {
-            "@id" : "dt_cn:01U2Ox69TF78CjGAzXHALN;1",
-            "@type" : "Digital_Twin_Connection",
-            "title" : "Digital Twin Connection 1",
-            "description" : "Digital Twin Connection 1 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-            "connections" : [
-               {
-                  "@type" : "Digital_Twin_Service",
-                  "title" : "Helio",
-                  "description" : "Materialization service used to generate RDF data.",
-                  "href" : "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/data",
-                  "provider" : "false",
-                  "internal" : "true"
-               },
-               {
-                  "@type" : "dcat:Dataset",
-                  "title" : "IFC File",
-                  "description" : "IFC File of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-                  "href" : "https://dtp.cogito-project.com/file/508bfae6-dada-46d1-8d40-beb18c1619b8/download",
-                  "provider" : "true",
-                  "internal" : "false"
-               }
-            ]
-         },
-         {
-            "@id" : "dt_cn:01U2Ox69TF78CjGAzXHALN;2",
-            "@type" : "Digital_Twin_Connection",
-            "title" : "Digital Twin Connection 2",
-            "description" : "Digital Twin Connection 2 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-            "connections" : [
-               {
-                  "@type" : "Digital_Twin_Service",
-                  "title" : "Helio",
-                  "description" : "Materialization service used to generate RDF data.",
-                  "href" : "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/data",
-                  "provider" : "false",
-                  "internal" : "true"
-               },
-               {
-                  "@type" : "Mapping_Model",
-                  "title" : "Mapping",
-                  "description" : "Mappings used to generate the Digital Twin RDF data.",
-                  "href" : "https://data.cogito.iot.linkeddata.es/validation/api/project_to_rdf/mapping",
-                  "provider" : "true",
-                  "internal" : "true"
-               }
-            ]
-         },
-         {
-            "@id" : "dt_cn:01U2Ox69TF78CjGAzXHALN;3",
-            "@type" : "Digital_Twin_Connection",
-            "title" : "Digital Twin Connection 3",
-            "description" : "Digital Twin Connection 3 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-            "connections" : [
-               {
-                  "@type" : "dcat:Dataset",
-                  "title" : "Knowledge Graph",
-                  "description" : "Knowledge Graph of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-                  "href" : "https://data.cogito.iot.linkeddata.es/beo_bot_ifc",
-                  "provider" : "true",
-                  "internal" : "true"
-               },
-               {
-                  "@type" : "Digital_Twin_Service",
-                  "title" : "Helio Validation",
-                  "description" : "Validation service used to validate RDF data.",
-                  "href" : "https://data.cogito.iot.linkeddata.es/validation/api/validate_rdf/data",
-                  "provider" : "false",
-                  "internal" : "true"
-               }
-            ]
-         },
-         {
-            "@id" : "dt_cn:01U2Ox69TF78CjGAzXHALN;4",
-            "@type" : "Digital_Twin_Connection",
-            "title" : "Digital Twin Connection 4",
-            "description" : "Digital Twin Connection 4 of SDT 01U2Ox69TF78CjGAzXHALN from project b3fe643d-f9f2-4e14-bf3c-95343d63c850.",
-            "connections" : [
-               {
-                  "@type" : "SHACL_Shape_Model",
-                  "title" : "SHACL Shapes",
-                  "description" : "SHACL Shapes used to validate the data of the Digital Twin.",
-                  "href" : "https://raw.githubusercontent.com/oeg-upm/cogito_data_repository/main/demo_example_SHACL/shape.ttl",
-                  "provider" : "true",
-                  "internal" : "true"
-               },
-               {
-                  "@type" : "Digital_Twin_Service",
-                  "title" : "Helio Validation",
-                  "description" : "Validation service used to validate RDF data.",
-                  "href" : "https://data.cogito.iot.linkeddata.es/validation/api/rdf_shacl/mapping",
-                  "provider" : "false",
-                  "internal" : "true"
-               }
-            ]
-         }
-    ]
- }
+          "type": "Digital_Twin_Service",
+          "title": "Helio Validation",
+          "description": "Validation service used to validate RDF data.",
+          "href": "https://data.cogito.iot.linkeddata.es/validation/api/rdf_shacl/mapping",
+          "provider": "false",
+          "internal": "true"
+        }
+      ]
+    }
+  ]
+}

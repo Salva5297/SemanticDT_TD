@@ -4,6 +4,7 @@
 @prefix hctl: <https://www.w3.org/2019/wot/hypermedia#> .
 @prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix td: <https://www.w3.org/2019/wot/td#> .
@@ -44,14 +45,6 @@ dt:DigitalTwinDimension a owl:Class ;
     rdfs:label "Digital Twin Dimension" ;
     rdfs:comment "Dimensions of which the digital twin is composed."@en .
 
-dt:DigitalTwinService a owl:Class ;
-    rdfs:label "Digital Twin Service" ;
-    rdfs:subClassOf dt:Connection .
-
-dt:DigitalTwinServices a owl:Class ;
-    rdfs:label "Digital Twin Services" ;
-    rdfs:comment "This dimension of the digital twin contains all the services that are used to perform all the processes of the digital twin."@en .
-
 dt:GeometricModel a owl:Class ;
     rdfs:label "Geometric Model" ;
     rdfs:comment "Describes all the geometric parameters of the physical entity (e.g. shapes, sizes and assembly relations)."@en ;
@@ -65,12 +58,12 @@ dt:MainComponent a owl:Class ;
 dt:MappingModel a owl:Class ;
     rdfs:label "Mapping Model" ;
     rdfs:comment "Model that allows the alignment of data with the objective of obtaining harmonised data from non-harmonised data."@en ;
-    rdfs:subClassOf dt:Connection .
+    rdfs:subClassOf dt:SemanticModel .
 
 dt:OntologyModel a owl:Class ;
     rdfs:label "Ontology Model" ;
     rdfs:comment "Model that contains the conceptualization of the information of the digital twin. This conceptualization activity refers to the organization and structuration of the information (data, knowledge, etc.), obtained during the acquisition process, into meaningful models at the knowledge level and according to the ontology requirements specification document."@en ;
-    rdfs:subClassOf dt:Connection .
+    rdfs:subClassOf dt:SemanticModel .
 
 dt:PhysicalModel a owl:Class ;
     rdfs:label "Physical Model" ;
@@ -85,7 +78,7 @@ dt:RulesModel a owl:Class ;
 dt:SHACLModel a owl:Class ;
     rdfs:label "S H A C L Model" ;
     rdfs:comment "Model that contains the data validation rules allowing the data to be validated."@en ;
-    rdfs:subClassOf dt:Connection .
+    rdfs:subClassOf dt:SemanticModel .
 
 dt:aggregates a owl:ObjectProperty ;
     rdfs:label "aggregates" ;
@@ -98,6 +91,9 @@ dt:aggregates a owl:ObjectProperty ;
 dt:hasExtension a owl:DatatypeProperty ;
     rdfs:label "has extension" ;
     rdfs:comment "Extension of the model or data with which can be found."@en .
+
+dt:hasInteractionAffordance a owl:ObjectProperty ;
+    rdfs:label "has interaction affordance" .
 
 dt:isInternal a owl:DatatypeProperty ;
     rdfs:label "is internal" ;
@@ -127,9 +123,6 @@ td:id a owl:DatatypeProperty ;
 td:title a owl:DatatypeProperty ;
     rdfs:label "title" .
 
-dcat:Resource a owl:Class ;
-    rdfs:label "Resource" .
-
 dt: a owl:Ontology ;
     dc:contributor "Andrea Cimmino",
         "María Poveda Villalón",
@@ -141,7 +134,7 @@ dt: a owl:Ontology ;
     dc:title "The Digital Twin ontology"@en ;
     vann:preferredNamespacePrefix "dt" ;
     vann:preferredNamespaceUri dt: ;
-    owl:versionInfo "0.0.1" ;
+    owl:versionInfo "0.0.2" ;
     mod:createdWith <https://chowlk.linkeddata.es/> .
 
 dt:AggregatedDigitalTwin a owl:Class ;
@@ -156,6 +149,11 @@ dt:DigitalTwinInstance a owl:Class ;
     rdfs:label "Digital Twin Instance" ;
     rdfs:comment "Describes a specific corresponding physical product that an individual Digital Twin remains linked to throughout the life of that physical product."@en ;
     rdfs:subClassOf dt:DigitalTwin .
+
+dt:DigitalTwinService a owl:Class ;
+    rdfs:label "Digital Twin Service" ;
+    rdfs:comment "This dimension of the digital twin contains all the services that are used to perform all the processes of the digital twin."@en ;
+    rdfs:subClassOf dt:Connection .
 
 dt:Format a owl:Class ;
     rdfs:label "Format" ;
@@ -191,6 +189,11 @@ dt:hasDigitalTwinData a owl:ObjectProperty ;
     rdfs:domain dt:DigitalTwin ;
     rdfs:range dt:DigitalTwinData .
 
+dt:hasDigitalTwinServices a owl:ObjectProperty ;
+    rdfs:label "has digital twin services" ;
+    rdfs:domain dt:DigitalTwin ;
+    rdfs:range dt:DigitalTwinService .
+
 dt:hasFormats a owl:ObjectProperty ;
     rdfs:label "has formats" ;
     rdfs:comment "Property that describes the different extension formats that the models or data can be found."@en ;
@@ -215,14 +218,20 @@ dt:hasVirtualEntities a owl:ObjectProperty ;
     rdfs:domain dt:DigitalTwin ;
     rdfs:range dt:VirtualEntity .
 
+td:InteractionAffordance a owl:Class ;
+    rdfs:label "Interaction Affordance" .
+
 td:Thing a owl:Class ;
     rdfs:label "Thing" .
+
+dcat:Resource a owl:Class ;
+    rdfs:label "Resource" .
 
 dt:DigitalTwinConnection a owl:Class ;
     rdfs:label "Digital Twin Connection" ;
     rdfs:comment "This dimension of the digital twin contains all the existing connections that are between the different dimensions of the digital twins and the information used."@en ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:cardinality "2"^^xsd:nonNegativeInteger ;
             owl:onProperty dt:hasConnections ],
         dt:Connection .
 
@@ -254,6 +263,10 @@ saref:Device a owl:Class ;
     rdfs:label "Device" ;
     rdfs:subClassOf dt:Connection .
 
+dt:SemanticModel a owl:Class ;
+    rdfs:label "Semantic Model" ;
+    rdfs:subClassOf dt:Connection .
+
 dt:Model a owl:Class ;
     rdfs:label "Model" ;
     rdfs:comment "Representation or conceptualization of the data registered in the Virtual Entity dimension."@en ;
@@ -276,9 +289,14 @@ dt:DigitalTwin a owl:Class ;
         [ a owl:Restriction ;
             owl:minCardinality "1"^^xsd:nonNegativeInteger ;
             owl:onProperty dt:hasDigitalTwinConnections ],
+        [ a owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dt:hasDigitalTwinServices ],
         td:Thing .
 
 dt:Connection a owl:Class ;
     rdfs:label "Connection" ;
-    rdfs:comment "Existing connection between different dt:DigitalTwinDimension."@en .
+    rdfs:comment "Existing connection between different dt:DigitalTwinDimension."@en ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:unionOf ( dt:Model dcat:Resource td:InteractionAffordance ) ] .
 
